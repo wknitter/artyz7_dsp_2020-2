@@ -1,0 +1,78 @@
+12:42:53 INFO  : Launching XSCT server: xsct -n  -interactive /home/parallels/artyz7_dsp_2020-2/vitis_workspace/temp_xsdb_launch_script.tcl
+12:42:53 INFO  : Registering command handlers for Vitis TCF services
+12:42:55 INFO  : Platform repository initialization has completed.
+12:42:56 INFO  : XSCT server has started successfully.
+12:42:56 INFO  : Successfully done setting XSCT server connection channel  
+12:42:56 INFO  : plnx-install-location is set to ''
+12:42:56 INFO  : Successfully done setting workspace for the tool. 
+12:42:56 INFO  : Successfully done query RDI_DATADIR 
+12:43:43 INFO  : Result from executing command 'getProjects': artyz7
+12:43:43 INFO  : Result from executing command 'getPlatforms': 
+12:44:00 INFO  : Result from executing command 'getProjects': artyz7
+12:44:00 INFO  : Result from executing command 'getPlatforms': artyz7|/home/parallels/artyz7_dsp_2020-2/vitis_workspace/artyz7/export/artyz7/artyz7.xpfm
+12:46:05 INFO  : Checking for BSP changes to sync application flags for project 'hello_artyz7'...
+15:55:46 INFO  : Launching XSCT server: xsct -n  -interactive /home/parallels/artyz7_dsp_2020-2/vitis_workspace/temp_xsdb_launch_script.tcl
+15:55:49 INFO  : XSCT server has started successfully.
+15:55:49 INFO  : plnx-install-location is set to ''
+15:55:49 INFO  : Successfully done setting XSCT server connection channel  
+15:55:49 INFO  : Successfully done setting workspace for the tool. 
+15:55:52 INFO  : Platform repository initialization has completed.
+15:55:52 INFO  : Registering command handlers for Vitis TCF services
+15:55:53 INFO  : Successfully done query RDI_DATADIR 
+07:23:13 INFO  : Launching XSCT server: xsct -n  -interactive /home/parallels/artyz7_dsp_2020-2/vitis_workspace/temp_xsdb_launch_script.tcl
+07:23:16 INFO  : XSCT server has started successfully.
+07:23:16 INFO  : Successfully done setting XSCT server connection channel  
+07:23:16 INFO  : plnx-install-location is set to ''
+07:23:16 INFO  : Successfully done setting workspace for the tool. 
+07:23:19 INFO  : Platform repository initialization has completed.
+07:23:19 INFO  : Registering command handlers for Vitis TCF services
+07:23:20 INFO  : Successfully done query RDI_DATADIR 
+07:26:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+07:26:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017A70147A" && level==0 && jtag_device_ctx=="jsn-Arty Z7-003017A70147A-23727093-0"}' command is executed.
+07:26:45 INFO  : Device configured successfully with "/home/parallels/artyz7_dsp_2020-2/vitis_workspace/hello_artyz7/_ide/bitstream/artyz7_bd_wrapper.bit"
+07:26:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+07:26:50 INFO  : Jtag cable 'Digilent Arty Z7 003017A70147A' is selected.
+07:26:50 INFO  : 'jtag frequency' command is executed.
+07:26:50 INFO  : Context for 'APU' is selected.
+07:26:51 INFO  : System reset is completed.
+07:26:54 INFO  : 'after 3000' command is executed.
+07:26:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017A70147A" && level==0 && jtag_device_ctx=="jsn-Arty Z7-003017A70147A-23727093-0"}' command is executed.
+07:26:56 INFO  : Device configured successfully with "/home/parallels/artyz7_dsp_2020-2/vitis_workspace/hello_artyz7/_ide/bitstream/artyz7_bd_wrapper.bit"
+07:26:56 INFO  : Context for 'APU' is selected.
+07:26:56 INFO  : Hardware design and registers information is loaded from '/home/parallels/artyz7_dsp_2020-2/vitis_workspace/artyz7/export/artyz7/hw/artyz7_bd_wrapper.xsa'.
+07:26:56 INFO  : 'configparams force-mem-access 1' command is executed.
+07:26:56 INFO  : Context for 'APU' is selected.
+07:26:56 INFO  : Sourcing of '/home/parallels/artyz7_dsp_2020-2/vitis_workspace/hello_artyz7/_ide/psinit/ps7_init.tcl' is done.
+07:26:57 INFO  : 'ps7_init' command is executed.
+07:26:57 INFO  : 'ps7_post_config' command is executed.
+07:26:57 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+07:26:57 INFO  : The application '/home/parallels/artyz7_dsp_2020-2/vitis_workspace/hello_artyz7/Debug/hello_artyz7.elf' is downloaded to processor 'ps7_cortexa9_0'.
+07:26:57 INFO  : 'configparams force-mem-access 0' command is executed.
+07:26:57 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017A70147A" && level==0 && jtag_device_ctx=="jsn-Arty Z7-003017A70147A-23727093-0"}
+fpga -file /home/parallels/artyz7_dsp_2020-2/vitis_workspace/hello_artyz7/_ide/bitstream/artyz7_bd_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/parallels/artyz7_dsp_2020-2/vitis_workspace/artyz7/export/artyz7/hw/artyz7_bd_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/parallels/artyz7_dsp_2020-2/vitis_workspace/hello_artyz7/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/parallels/artyz7_dsp_2020-2/vitis_workspace/hello_artyz7/Debug/hello_artyz7.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+07:26:57 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+07:26:57 INFO  : 'con' command is executed.
+07:26:57 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+07:26:57 INFO  : Launch script is exported to file '/home/parallels/artyz7_dsp_2020-2/vitis_workspace/hello_artyz7_system/_ide/scripts/debugger_hello_artyz7-default.tcl'
+07:27:19 INFO  : Disconnected from the channel tcfchan#1.

@@ -1,0 +1,7 @@
+/*artyz7*/
+the_ROM_image:
+{
+  [bootloader]<artyz7/boot/fsbl.elf>
+   <bitstream> 
+  <elf,ps7_cortexa9_0>
+}

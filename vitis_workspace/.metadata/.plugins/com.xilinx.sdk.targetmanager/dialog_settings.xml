@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="hello_artyz7_system-bitFile" value="${project_loc:hello_artyz7}/_ide/bitstream/artyz7_bd_wrapper.bit"/>
+	<item key="hello_artyz7_system-bmmFile" value=""/>
+	<item key="hello_artyz7_system-target" value="Local"/>
+	<item key="hello_artyz7_system-device" value="Auto Detect"/>
+	<item key="hello_artyz7_system-partial_bit" value="false"/>
+	<item key="hello_artyz7_system-skip_rev_check" value="false"/>
+	<item key="programfpga.sdxproject" value="hello_artyz7_system"/>
+	<item key="devices_info_Local" value="{&quot;cables&quot;:[{&quot;name&quot;:&quot;Digilent Arty Z7 003017A70147A&quot;,&quot;indexContextMap&quot;:{&quot;2&quot;:&quot;jsn-Arty Z7-003017A70147A-4ba00477-0&quot;,&quot;3&quot;:&quot;jsn-Arty Z7-003017A70147A-23727093-0&quot;}}]}"/>
+</section>
