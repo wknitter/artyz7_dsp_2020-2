@@ -76,3 +76,88 @@ con
 
 07:26:57 INFO  : Launch script is exported to file '/home/parallels/artyz7_dsp_2020-2/vitis_workspace/hello_artyz7_system/_ide/scripts/debugger_hello_artyz7-default.tcl'
 07:27:19 INFO  : Disconnected from the channel tcfchan#1.
+17:15:55 INFO  : Launching XSCT server: xsct -n  -interactive /home/parallels/artyz7_dsp_2020-2/vitis_workspace/temp_xsdb_launch_script.tcl
+17:15:58 INFO  : XSCT server has started successfully.
+17:15:58 INFO  : plnx-install-location is set to ''
+17:15:58 INFO  : Successfully done setting XSCT server connection channel  
+17:15:58 INFO  : Successfully done setting workspace for the tool. 
+17:15:59 INFO  : Platform repository initialization has completed.
+17:15:59 INFO  : Registering command handlers for Vitis TCF services
+17:16:00 INFO  : Successfully done query RDI_DATADIR 
+17:18:16 INFO  : Example project xdmaps_example_w_intr_1 has been created successfully.
+12:53:04 INFO  : Launching XSCT server: xsct -n  -interactive /home/parallels/artyz7_dsp_2020-2/vitis_workspace/temp_xsdb_launch_script.tcl
+12:53:07 INFO  : XSCT server has started successfully.
+12:53:07 INFO  : Successfully done setting XSCT server connection channel  
+12:53:07 INFO  : plnx-install-location is set to ''
+12:53:07 INFO  : Successfully done setting workspace for the tool. 
+12:53:10 INFO  : Platform repository initialization has completed.
+12:53:10 INFO  : Registering command handlers for Vitis TCF services
+12:53:10 INFO  : Successfully done query RDI_DATADIR 
+14:02:25 INFO  : Result from executing command 'getProjects': artyz7
+14:02:25 INFO  : Result from executing command 'getPlatforms': artyz7|/home/parallels/artyz7_dsp_2020-2/vitis_workspace/artyz7/export/artyz7/artyz7.xpfm
+14:02:42 INFO  : Checking for BSP changes to sync application flags for project 'hello_artyz7'...
+14:07:09 INFO  : Checking for BSP changes to sync application flags for project 'hello_artyz7'...
+14:08:12 INFO  : Checking for BSP changes to sync application flags for project 'hello_artyz7'...
+10:59:08 INFO  : Launching XSCT server: xsct -n  -interactive /home/parallels/artyz7_dsp_2020-2/vitis_workspace/temp_xsdb_launch_script.tcl
+10:59:10 INFO  : Platform repository initialization has completed.
+10:59:10 INFO  : Registering command handlers for Vitis TCF services
+10:59:11 INFO  : XSCT server has started successfully.
+10:59:12 INFO  : Successfully done setting XSCT server connection channel  
+10:59:12 INFO  : plnx-install-location is set to ''
+10:59:12 INFO  : Successfully done query RDI_DATADIR 
+10:59:12 INFO  : Successfully done setting workspace for the tool. 
+11:08:41 ERROR : Could not connect to host '192.168.0.1' specified in the target 'Linux Agent'
+12:13:33 INFO  : Launching XSCT server: xsct -n  -interactive /home/parallels/artyz7_dsp_2020-2/vitis_workspace/temp_xsdb_launch_script.tcl
+12:13:35 INFO  : Platform repository initialization has completed.
+12:13:35 INFO  : Registering command handlers for Vitis TCF services
+12:13:36 INFO  : XSCT server has started successfully.
+12:13:36 INFO  : plnx-install-location is set to ''
+12:13:36 INFO  : Successfully done setting XSCT server connection channel  
+12:13:36 INFO  : Successfully done query RDI_DATADIR 
+12:13:36 INFO  : Successfully done setting workspace for the tool. 
+16:00:57 INFO  : Result from executing command 'getProjects': artyz7
+16:00:57 INFO  : Result from executing command 'getPlatforms': artyz7|/home/parallels/artyz7_dsp_2020-2/vitis_workspace/artyz7/export/artyz7/artyz7.xpfm
+16:01:07 INFO  : Checking for BSP changes to sync application flags for project 'hello_artyz7'...
+16:05:02 INFO  : Checking for BSP changes to sync application flags for project 'hello_artyz7'...
+16:06:21 INFO  : Checking for BSP changes to sync application flags for project 'hello_artyz7'...
+16:06:42 INFO  : Checking for BSP changes to sync application flags for project 'hello_artyz7'...
+16:07:21 INFO  : Checking for BSP changes to sync application flags for project 'hello_artyz7'...
+16:28:49 INFO  : Checking for BSP changes to sync application flags for project 'hello_artyz7'...
+17:34:46 INFO  : Checking for BSP changes to sync application flags for project 'hello_artyz7'...
+17:37:41 INFO  : Checking for BSP changes to sync application flags for project 'hello_artyz7'...
+17:38:45 INFO  : Checking for BSP changes to sync application flags for project 'hello_artyz7'...
+11:51:01 INFO  : Launching XSCT server: xsct -n  -interactive /home/parallels/artyz7_dsp_2020-2/vitis_workspace/temp_xsdb_launch_script.tcl
+11:51:02 INFO  : Platform repository initialization has completed.
+11:51:03 INFO  : Registering command handlers for Vitis TCF services
+11:51:04 INFO  : XSCT server has started successfully.
+11:51:05 INFO  : plnx-install-location is set to ''
+11:51:05 INFO  : Successfully done setting XSCT server connection channel  
+11:51:05 INFO  : Successfully done query RDI_DATADIR 
+11:51:05 INFO  : Successfully done setting workspace for the tool. 
+11:51:27 INFO  : Checking for BSP changes to sync application flags for project 'hello_artyz7'...
+11:51:29 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file /home/parallels/artyz7_dsp_2020-2/vitis_workspace/artyz7/export/artyz7/hw/artyz7_bd_wrapper.xsa is already opened
+
+10:12:03 INFO  : Launching XSCT server: xsct -n  -interactive /home/parallels/artyz7_dsp_2020-2/vitis_workspace/temp_xsdb_launch_script.tcl
+10:12:05 INFO  : Platform repository initialization has completed.
+10:12:06 INFO  : Registering command handlers for Vitis TCF services
+10:12:07 INFO  : XSCT server has started successfully.
+10:12:08 INFO  : plnx-install-location is set to ''
+10:12:08 INFO  : Successfully done setting XSCT server connection channel  
+10:12:08 INFO  : Successfully done query RDI_DATADIR 
+10:12:08 INFO  : Successfully done setting workspace for the tool. 
+13:42:16 INFO  : Launching XSCT server: xsct -n  -interactive /home/parallels/artyz7_dsp_2020-2/vitis_workspace/temp_xsdb_launch_script.tcl
+13:42:17 INFO  : Platform repository initialization has completed.
+13:42:18 INFO  : Registering command handlers for Vitis TCF services
+13:42:19 INFO  : XSCT server has started successfully.
+13:42:19 INFO  : plnx-install-location is set to ''
+13:42:19 INFO  : Successfully done setting XSCT server connection channel  
+13:42:19 INFO  : Successfully done setting workspace for the tool. 
+13:42:19 INFO  : Successfully done query RDI_DATADIR 
+11:28:30 INFO  : Launching XSCT server: xsct -n  -interactive /home/parallels/artyz7_dsp_2020-2/vitis_workspace/temp_xsdb_launch_script.tcl
+11:28:32 INFO  : Platform repository initialization has completed.
+11:28:32 INFO  : Registering command handlers for Vitis TCF services
+11:28:33 INFO  : XSCT server has started successfully.
+11:28:34 INFO  : Successfully done setting XSCT server connection channel  
+11:28:34 INFO  : plnx-install-location is set to ''
+11:28:34 INFO  : Successfully done setting workspace for the tool. 
+11:28:34 INFO  : Successfully done query RDI_DATADIR 

@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1_copy_1" LaunchPart="xc7z020clg400-1" LaunchTime="1621625460">
-  <File Type="VDS-TIMINGSUMMARY" Name="artyz7_bd_wrapper_timing_summary_synth.rpt"/>
+<GenRun Id="synth_1_copy_1" LaunchPart="xc7z020clg400-1" LaunchTime="1625180496">
   <File Type="RDS-DCP" Name="artyz7_bd_wrapper.dcp"/>
   <File Type="RDS-UTIL-PB" Name="artyz7_bd_wrapper_utilization_synth.pb"/>
-  <File Type="RDS-UTIL" Name="artyz7_bd_wrapper_utilization_synth.rpt"/>
-  <File Type="RDS-PROPCONSTRS" Name="artyz7_bd_wrapper_drc_synth.rpt"/>
-  <File Type="RDS-RDS" Name="artyz7_bd_wrapper.vds"/>
-  <File Type="REPORTS-TCL" Name="artyz7_bd_wrapper_reports.tcl"/>
-  <File Type="VDS-TIMING-PB" Name="artyz7_bd_wrapper_timing_summary_synth.pb"/>
   <File Type="PA-TCL" Name="artyz7_bd_wrapper.tcl"/>
+  <File Type="RDS-UTIL" Name="artyz7_bd_wrapper_utilization_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="artyz7_bd_wrapper_reports.tcl"/>
+  <File Type="RDS-RDS" Name="artyz7_bd_wrapper.vds"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/bd/artyz7_bd/artyz7_bd.bd">
@@ -26,6 +23,14 @@
       </FileInfo>
     </File>
     <File Path="$PSRCDIR/sources_1/new/FIR_15taps.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/divideby5_mask.v">
       <FileInfo>
         <Attr Name="UserDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -52,17 +57,19 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020">
-      <Desc>Vivado Synthesis Defaults</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
     <Step Id="synth_design"/>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="artyz7_bd_axi_quad_spi_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="artyz7_bd_xbar_0"/>
   <BlockFileSet Type="BlockSrcs" Name="artyz7_bd_axi_gpio_1_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="artyz7_bd_processing_system7_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="artyz7_bd_clk_wiz_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="artyz7_bd_rst_ps7_0_100M_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="artyz7_bd_axi_gpio_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="artyz7_bd_axi_quad_spi_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="artyz7_bd_axi_gpio_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="artyz7_bd_axis_data_fifo_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="artyz7_bd_xbar_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="artyz7_bd_xbar_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="artyz7_bd_processing_system7_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="artyz7_bd_system_ila_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="artyz7_bd_axi_dma_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="artyz7_bd_axi_gpio_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="artyz7_bd_rst_ps7_0_100M_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="artyz7_bd_clk_wiz_0_0"/>
 </GenRun>

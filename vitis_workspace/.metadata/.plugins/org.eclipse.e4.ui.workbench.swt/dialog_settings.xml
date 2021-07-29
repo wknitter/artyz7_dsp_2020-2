@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="ShowViewDialog">
-		<item key="ShowViewDialog.STORE_SELECTED_VIEW_ID" value="com.xilinx.sdk.terminal.sdkterminal"/>
-		<item key="DIALOG_X_ORIGIN" value="652"/>
-		<item key="DIALOG_Y_ORIGIN" value="219"/>
-		<item key="DIALOG_WIDTH" value="380"/>
-		<item key="DIALOG_HEIGHT" value="444"/>
+		<item key="ShowViewDialog.STORE_SELECTED_VIEW_ID" value="com.xilinx.sdk.targetmanager.ui.TargetManagementView"/>
+		<item key="DIALOG_X_ORIGIN" value="835"/>
+		<item key="DIALOG_Y_ORIGIN" value="295"/>
+		<item key="DIALOG_WIDTH" value="683"/>
+		<item key="DIALOG_HEIGHT" value="743"/>
 		<item key="DIALOG_FONT_NAME" value="1|Ubuntu|11.0|0|GTK|1|"/>
 		<list key="ShowViewDialog.STORE_EXPANDED_CATEGORIES_ID">
 			<item value="Xilinx"/>

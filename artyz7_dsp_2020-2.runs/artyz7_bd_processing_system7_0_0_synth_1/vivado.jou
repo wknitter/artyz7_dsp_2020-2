@@ -2,8 +2,8 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Fri May 21 13:22:14 2021
-# Process ID: 20195
+# Start of session at: Wed Jun 30 18:05:50 2021
+# Process ID: 420
 # Current directory: /home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/artyz7_bd_processing_system7_0_0_synth_1
 # Command line: vivado -log artyz7_bd_processing_system7_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source artyz7_bd_processing_system7_0_0.tcl
 # Log file: /home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/artyz7_bd_processing_system7_0_0_synth_1/artyz7_bd_processing_system7_0_0.vds

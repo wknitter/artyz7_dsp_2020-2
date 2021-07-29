@@ -17,3 +17,22 @@ platform generate -domains
 platform active {artyz7}
 platform generate
 bsp reload
+platform active {artyz7}
+domain active {zynq_fsbl}
+bsp reload
+domain active {standalone_domain}
+bsp reload
+platform active {artyz7}
+domain create -name {linux} -os {linux} -proc {ps7_cortexa9} -arch {32-bit} -display-name {linux} -desc {} -runtime {cpp}
+platform write
+domain config -image {}
+domain -report -json
+platform write
+domain config -runtime {cpp}
+platform write
+domain config -bootmode {sd}
+platform write
+platform generate
+platform active {artyz7}
+platform active {artyz7}
+platform generate

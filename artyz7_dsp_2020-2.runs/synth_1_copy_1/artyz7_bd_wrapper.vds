@@ -2,8 +2,8 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Fri May 21 15:31:02 2021
-# Process ID: 25239
+# Start of session at: Thu Jul  1 18:03:41 2021
+# Process ID: 9044
 # Current directory: /home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1
 # Command line: vivado -log artyz7_bd_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source artyz7_bd_wrapper.tcl
 # Log file: /home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/artyz7_bd_wrapper.vds
@@ -20,57 +20,103 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020
 INFO: [Device 21-403] Loading part xc7z020clg400-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 25328
+INFO: [Synth 8-7075] Helper process launched with PID 9143
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2451.457 ; gain = 0.000 ; free physical = 17135 ; free virtual = 27528
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2451.457 ; gain = 0.000 ; free physical = 12568 ; free virtual = 25585
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'artyz7_bd_wrapper' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/hdl/artyz7_bd_wrapper.v:12]
 INFO: [Synth 8-6157] synthesizing module 'artyz7_bd' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:13]
-INFO: [Synth 8-6157] synthesizing module 'artyz7_bd_axi_gpio_0_0' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-25239-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_axi_gpio_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'artyz7_bd_axi_gpio_0_0' (1#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-25239-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_axi_gpio_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'artyz7_bd_axi_gpio_1_0' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-25239-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_axi_gpio_1_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'artyz7_bd_axi_gpio_1_0' (2#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-25239-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_axi_gpio_1_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'artyz7_bd_axi_gpio_2_0' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-25239-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_axi_gpio_2_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'artyz7_bd_axi_gpio_2_0' (3#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-25239-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_axi_gpio_2_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'artyz7_bd_axi_quad_spi_0_0' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-25239-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_axi_quad_spi_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'artyz7_bd_axi_quad_spi_0_0' (4#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-25239-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_axi_quad_spi_0_0_stub.v:6]
-WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:388]
-INFO: [Synth 8-6157] synthesizing module 'artyz7_bd_clk_wiz_0_0' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-25239-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_clk_wiz_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'artyz7_bd_clk_wiz_0_0' (5#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-25239-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_clk_wiz_0_0_stub.v:5]
-WARNING: [Synth 8-7071] port 'clk_out1' of module 'artyz7_bd_clk_wiz_0_0' is unconnected for instance 'clk_wiz_0' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:388]
-WARNING: [Synth 8-7071] port 'locked' of module 'artyz7_bd_clk_wiz_0_0' is unconnected for instance 'clk_wiz_0' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:388]
-WARNING: [Synth 8-7023] instance 'clk_wiz_0' of module 'artyz7_bd_clk_wiz_0_0' has 4 connections declared, but only 2 given [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:388]
-INFO: [Synth 8-6157] synthesizing module 'artyz7_bd_processing_system7_0_0' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-25239-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_processing_system7_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'artyz7_bd_processing_system7_0_0' (6#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-25239-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_processing_system7_0_0_stub.v:6]
-WARNING: [Synth 8-7071] port 'USB0_PORT_INDCTL' of module 'artyz7_bd_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:391]
-WARNING: [Synth 8-7071] port 'USB0_VBUS_PWRSELECT' of module 'artyz7_bd_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:391]
-WARNING: [Synth 8-7023] instance 'processing_system7_0' of module 'artyz7_bd_processing_system7_0_0' has 66 connections declared, but only 64 given [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:391]
-INFO: [Synth 8-6157] synthesizing module 'artyz7_bd_ps7_0_axi_periph_0' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:588]
-INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_1F6XOFZ' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:1389]
-INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_1F6XOFZ' (7#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:1389]
-INFO: [Synth 8-6157] synthesizing module 'm01_couplers_imp_UWLVON' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:1521]
-INFO: [Synth 8-6155] done synthesizing module 'm01_couplers_imp_UWLVON' (8#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:1521]
-INFO: [Synth 8-6157] synthesizing module 'm02_couplers_imp_1KNQT5A' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:1653]
-INFO: [Synth 8-6155] done synthesizing module 'm02_couplers_imp_1KNQT5A' (9#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:1653]
-INFO: [Synth 8-6157] synthesizing module 'm03_couplers_imp_7Q2XQU' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:1785]
-INFO: [Synth 8-6155] done synthesizing module 'm03_couplers_imp_7Q2XQU' (10#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:1785]
-INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_92BULF' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:1917]
-INFO: [Synth 8-6157] synthesizing module 'artyz7_bd_auto_pc_0' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-25239-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_auto_pc_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'artyz7_bd_auto_pc_0' (11#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-25239-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_auto_pc_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_92BULF' (12#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:1917]
-INFO: [Synth 8-6157] synthesizing module 'artyz7_bd_xbar_0' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-25239-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_xbar_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'artyz7_bd_xbar_0' (13#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-25239-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_xbar_0_stub.v:6]
-WARNING: [Synth 8-7071] port 'm_axi_awprot' of module 'artyz7_bd_xbar_0' is unconnected for instance 'xbar' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:1348]
-WARNING: [Synth 8-7071] port 'm_axi_arprot' of module 'artyz7_bd_xbar_0' is unconnected for instance 'xbar' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:1348]
-WARNING: [Synth 8-7023] instance 'xbar' of module 'artyz7_bd_xbar_0' has 40 connections declared, but only 38 given [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:1348]
-INFO: [Synth 8-6155] done synthesizing module 'artyz7_bd_ps7_0_axi_periph_0' (14#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:588]
-INFO: [Synth 8-6157] synthesizing module 'artyz7_bd_rst_ps7_0_100M_0' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-25239-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_rst_ps7_0_100M_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'artyz7_bd_rst_ps7_0_100M_0' (15#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-25239-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_rst_ps7_0_100M_0_stub.v:6]
-WARNING: [Synth 8-7071] port 'mb_reset' of module 'artyz7_bd_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:575]
-WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'artyz7_bd_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:575]
-WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'artyz7_bd_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:575]
-WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'artyz7_bd_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:575]
-WARNING: [Synth 8-7023] instance 'rst_ps7_0_100M' of module 'artyz7_bd_rst_ps7_0_100M_0' has 10 connections declared, but only 6 given [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:575]
+INFO: [Synth 8-6157] synthesizing module 'artyz7_bd_axi_dma_0_0' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-9044-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_axi_dma_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'artyz7_bd_axi_dma_0_0' (1#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-9044-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_axi_dma_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'mm2s_prmry_reset_out_n' of module 'artyz7_bd_axi_dma_0_0' is unconnected for instance 'axi_dma_0' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:378]
+WARNING: [Synth 8-7071] port 's2mm_prmry_reset_out_n' of module 'artyz7_bd_axi_dma_0_0' is unconnected for instance 'axi_dma_0' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:378]
+WARNING: [Synth 8-7071] port 'axi_dma_tstvec' of module 'artyz7_bd_axi_dma_0_0' is unconnected for instance 'axi_dma_0' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:378]
+WARNING: [Synth 8-7023] instance 'axi_dma_0' of module 'artyz7_bd_axi_dma_0_0' has 64 connections declared, but only 61 given [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:378]
+INFO: [Synth 8-6157] synthesizing module 'artyz7_bd_axi_gpio_0_0' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-9044-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_axi_gpio_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'artyz7_bd_axi_gpio_0_0' (2#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-9044-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_axi_gpio_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'artyz7_bd_axi_gpio_1_0' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-9044-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_axi_gpio_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'artyz7_bd_axi_gpio_1_0' (3#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-9044-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_axi_gpio_1_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'artyz7_bd_axi_gpio_2_0' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-9044-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_axi_gpio_2_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'artyz7_bd_axi_gpio_2_0' (4#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-9044-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_axi_gpio_2_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'artyz7_bd_axi_mem_intercon_0' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:908]
+INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_RCQI8O' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:2562]
+INFO: [Synth 8-6157] synthesizing module 'artyz7_bd_auto_pc_1' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-9044-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_auto_pc_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'artyz7_bd_auto_pc_1' (5#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-9044-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_auto_pc_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_RCQI8O' (6#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:2562]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_1XKMAV8' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:3488]
+INFO: [Synth 8-6157] synthesizing module 'artyz7_bd_auto_us_0' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-9044-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_auto_us_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'artyz7_bd_auto_us_0' (7#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-9044-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_auto_us_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'm_axi_arregion' of module 'artyz7_bd_auto_us_0' is unconnected for instance 'auto_us' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:3615]
+WARNING: [Synth 8-7023] instance 'auto_us' of module 'artyz7_bd_auto_us_0' has 34 connections declared, but only 33 given [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:3615]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_1XKMAV8' (8#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:3488]
+INFO: [Synth 8-6157] synthesizing module 's01_couplers_imp_CL36JG' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:3956]
+INFO: [Synth 8-6157] synthesizing module 'artyz7_bd_auto_us_1' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-9044-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_auto_us_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'artyz7_bd_auto_us_1' (9#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-9044-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_auto_us_1_stub.v:6]
+WARNING: [Synth 8-7071] port 'm_axi_awregion' of module 'artyz7_bd_auto_us_1' is unconnected for instance 'auto_us' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:4107]
+WARNING: [Synth 8-7023] instance 'auto_us' of module 'artyz7_bd_auto_us_1' has 40 connections declared, but only 39 given [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:4107]
+INFO: [Synth 8-6155] done synthesizing module 's01_couplers_imp_CL36JG' (10#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:3956]
+INFO: [Synth 8-6157] synthesizing module 'artyz7_bd_xbar_1' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-9044-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_xbar_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'artyz7_bd_xbar_1' (11#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-9044-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_xbar_1_stub.v:6]
+WARNING: [Synth 8-689] width (1) of port connection 's_axi_arready' does not match port width (2) of module 'artyz7_bd_xbar_1' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:1479]
+WARNING: [Synth 8-689] width (64) of port connection 's_axi_rdata' does not match port width (128) of module 'artyz7_bd_xbar_1' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:1496]
+WARNING: [Synth 8-689] width (1) of port connection 's_axi_rlast' does not match port width (2) of module 'artyz7_bd_xbar_1' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:1497]
+WARNING: [Synth 8-689] width (2) of port connection 's_axi_rresp' does not match port width (4) of module 'artyz7_bd_xbar_1' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:1499]
+WARNING: [Synth 8-689] width (1) of port connection 's_axi_rvalid' does not match port width (2) of module 'artyz7_bd_xbar_1' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:1500]
+WARNING: [Synth 8-7071] port 's_axi_bid' of module 'artyz7_bd_xbar_1' is unconnected for instance 'xbar' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:1429]
+WARNING: [Synth 8-7071] port 's_axi_rid' of module 'artyz7_bd_xbar_1' is unconnected for instance 'xbar' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:1429]
+WARNING: [Synth 8-7023] instance 'xbar' of module 'artyz7_bd_xbar_1' has 78 connections declared, but only 76 given [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:1429]
+INFO: [Synth 8-6155] done synthesizing module 'artyz7_bd_axi_mem_intercon_0' (12#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:908]
+INFO: [Synth 8-6157] synthesizing module 'artyz7_bd_axi_quad_spi_0_0' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-9044-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_axi_quad_spi_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'artyz7_bd_axi_quad_spi_0_0' (13#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-9044-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_axi_quad_spi_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'artyz7_bd_axis_data_fifo_0_0' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-9044-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_axis_data_fifo_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'artyz7_bd_axis_data_fifo_0_0' (14#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-9044-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_axis_data_fifo_0_0_stub.v:6]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:634]
+INFO: [Synth 8-6157] synthesizing module 'artyz7_bd_clk_wiz_0_0' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-9044-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_clk_wiz_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'artyz7_bd_clk_wiz_0_0' (15#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-9044-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_clk_wiz_0_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'clk_out1' of module 'artyz7_bd_clk_wiz_0_0' is unconnected for instance 'clk_wiz_0' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:634]
+WARNING: [Synth 8-7071] port 'locked' of module 'artyz7_bd_clk_wiz_0_0' is unconnected for instance 'clk_wiz_0' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:634]
+WARNING: [Synth 8-7023] instance 'clk_wiz_0' of module 'artyz7_bd_clk_wiz_0_0' has 4 connections declared, but only 2 given [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:634]
+INFO: [Synth 8-6157] synthesizing module 'artyz7_bd_processing_system7_0_0' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-9044-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_processing_system7_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'artyz7_bd_processing_system7_0_0' (16#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-9044-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_processing_system7_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'USB0_PORT_INDCTL' of module 'artyz7_bd_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:637]
+WARNING: [Synth 8-7071] port 'USB0_VBUS_PWRSELECT' of module 'artyz7_bd_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:637]
+WARNING: [Synth 8-7071] port 'S_AXI_HP0_RCOUNT' of module 'artyz7_bd_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:637]
+WARNING: [Synth 8-7071] port 'S_AXI_HP0_WCOUNT' of module 'artyz7_bd_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:637]
+WARNING: [Synth 8-7071] port 'S_AXI_HP0_RACOUNT' of module 'artyz7_bd_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:637]
+WARNING: [Synth 8-7071] port 'S_AXI_HP0_WACOUNT' of module 'artyz7_bd_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:637]
+WARNING: [Synth 8-7023] instance 'processing_system7_0' of module 'artyz7_bd_processing_system7_0_0' has 111 connections declared, but only 105 given [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:637]
+INFO: [Synth 8-6157] synthesizing module 'artyz7_bd_ps7_0_axi_periph_0' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:1508]
+INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_1F6XOFZ' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:2430]
+INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_1F6XOFZ' (17#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:2430]
+INFO: [Synth 8-6157] synthesizing module 'm01_couplers_imp_UWLVON' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:2967]
+INFO: [Synth 8-6155] done synthesizing module 'm01_couplers_imp_UWLVON' (18#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:2967]
+INFO: [Synth 8-6157] synthesizing module 'm02_couplers_imp_1KNQT5A' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:3099]
+INFO: [Synth 8-6155] done synthesizing module 'm02_couplers_imp_1KNQT5A' (19#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:3099]
+INFO: [Synth 8-6157] synthesizing module 'm03_couplers_imp_7Q2XQU' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:3231]
+INFO: [Synth 8-6155] done synthesizing module 'm03_couplers_imp_7Q2XQU' (20#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:3231]
+INFO: [Synth 8-6157] synthesizing module 'm04_couplers_imp_MQ5JX9' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:3363]
+INFO: [Synth 8-6155] done synthesizing module 'm04_couplers_imp_MQ5JX9' (21#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:3363]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_92BULF' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:3651]
+INFO: [Synth 8-6157] synthesizing module 'artyz7_bd_auto_pc_0' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-9044-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'artyz7_bd_auto_pc_0' (22#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-9044-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_92BULF' (23#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:3651]
+INFO: [Synth 8-6157] synthesizing module 'artyz7_bd_xbar_0' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-9044-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_xbar_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'artyz7_bd_xbar_0' (24#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-9044-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_xbar_0_stub.v:6]
+WARNING: [Synth 8-689] width (16) of port connection 'm_axi_wstrb' does not match port width (20) of module 'artyz7_bd_xbar_0' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:2407]
+WARNING: [Synth 8-7071] port 'm_axi_awprot' of module 'artyz7_bd_xbar_0' is unconnected for instance 'xbar' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:2389]
+WARNING: [Synth 8-7071] port 'm_axi_arprot' of module 'artyz7_bd_xbar_0' is unconnected for instance 'xbar' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:2389]
+WARNING: [Synth 8-7023] instance 'xbar' of module 'artyz7_bd_xbar_0' has 40 connections declared, but only 38 given [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:2389]
+INFO: [Synth 8-6155] done synthesizing module 'artyz7_bd_ps7_0_axi_periph_0' (25#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:1508]
+INFO: [Synth 8-6157] synthesizing module 'artyz7_bd_rst_ps7_0_100M_0' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-9044-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_rst_ps7_0_100M_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'artyz7_bd_rst_ps7_0_100M_0' (26#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-9044-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_rst_ps7_0_100M_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'mb_reset' of module 'artyz7_bd_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:880]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'artyz7_bd_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:880]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'artyz7_bd_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:880]
+WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'artyz7_bd_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:880]
+WARNING: [Synth 8-7023] instance 'rst_ps7_0_100M' of module 'artyz7_bd_rst_ps7_0_100M_0' has 10 connections declared, but only 6 given [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:880]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:887]
+INFO: [Synth 8-6157] synthesizing module 'artyz7_bd_system_ila_0_0' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-9044-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_system_ila_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'artyz7_bd_system_ila_0_0' (27#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/.Xil/Vivado-9044-parallels-Parallels-Virtual-Platform/realtime/artyz7_bd_system_ila_0_0_stub.v:6]
 INFO: [Synth 8-6157] synthesizing module 'artyz7_bd_xlconcat_0_0' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_xlconcat_0_0/synth/artyz7_bd_xlconcat_0_0.v:60]
 INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_4_xlconcat' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ipshared/4b67/hdl/xlconcat_v2_1_vl_rfs.v:14]
 	Parameter IN0_WIDTH bound to: 1 - type: integer 
@@ -201,31 +247,34 @@ INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_4_xlconcat' [/home/paral
 	Parameter IN125_WIDTH bound to: 1 - type: integer 
 	Parameter IN126_WIDTH bound to: 1 - type: integer 
 	Parameter IN127_WIDTH bound to: 1 - type: integer 
-	Parameter dout_width bound to: 2 - type: integer 
-	Parameter NUM_PORTS bound to: 2 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'xlconcat_v2_1_4_xlconcat' (16#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ipshared/4b67/hdl/xlconcat_v2_1_vl_rfs.v:14]
-INFO: [Synth 8-6155] done synthesizing module 'artyz7_bd_xlconcat_0_0' (17#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_xlconcat_0_0/synth/artyz7_bd_xlconcat_0_0.v:60]
-INFO: [Synth 8-6155] done synthesizing module 'artyz7_bd' (18#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:13]
+	Parameter dout_width bound to: 4 - type: integer 
+	Parameter NUM_PORTS bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconcat_v2_1_4_xlconcat' (28#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ipshared/4b67/hdl/xlconcat_v2_1_vl_rfs.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'artyz7_bd_xlconcat_0_0' (29#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_xlconcat_0_0/synth/artyz7_bd_xlconcat_0_0.v:60]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'axi_dma_0'. This will prevent further optimization [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:378]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'system_ila_0'. This will prevent further optimization [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:887]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'axis_data_fifo_0'. This will prevent further optimization [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:621]
+INFO: [Synth 8-6155] done synthesizing module 'artyz7_bd' (30#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/synth/artyz7_bd.v:13]
 INFO: [Synth 8-6157] synthesizing module 'IOBUF' [/tools/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:36242]
 	Parameter DRIVE bound to: 12 - type: integer 
 	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
 	Parameter IOSTANDARD bound to: DEFAULT - type: string 
 	Parameter SLEW bound to: SLOW - type: string 
-INFO: [Synth 8-6155] done synthesizing module 'IOBUF' (19#1) [/tools/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:36242]
-INFO: [Synth 8-6155] done synthesizing module 'artyz7_bd_wrapper' (20#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/hdl/artyz7_bd_wrapper.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'IOBUF' (31#1) [/tools/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:36242]
+INFO: [Synth 8-6155] done synthesizing module 'artyz7_bd_wrapper' (32#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/hdl/artyz7_bd_wrapper.v:12]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2456.348 ; gain = 4.891 ; free physical = 17868 ; free virtual = 28261
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2502.254 ; gain = 50.797 ; free physical = 13310 ; free virtual = 26327
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2471.191 ; gain = 19.734 ; free physical = 17925 ; free virtual = 28319
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2516.129 ; gain = 64.672 ; free physical = 13334 ; free virtual = 26351
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2471.191 ; gain = 19.734 ; free physical = 17925 ; free virtual = 28319
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2516.129 ; gain = 64.672 ; free physical = 13334 ; free virtual = 26351
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2482.098 ; gain = 0.000 ; free physical = 17920 ; free virtual = 28314
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2530.973 ; gain = 0.000 ; free physical = 13326 ; free virtual = 26343
 INFO: [Netlist 29-17] Analyzing 34 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -250,26 +299,40 @@ Parsing XDC File [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/source
 Finished Parsing XDC File [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_axi_gpio_1_0/artyz7_bd_axi_gpio_1_0/artyz7_bd_axi_gpio_1_0_in_context.xdc] for cell 'artyz7_bd_i/axi_gpio_1'
 Parsing XDC File [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_axi_gpio_2_0/artyz7_bd_axi_gpio_2_0/artyz7_bd_axi_gpio_2_0_in_context.xdc] for cell 'artyz7_bd_i/axi_gpio_2'
 Finished Parsing XDC File [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_axi_gpio_2_0/artyz7_bd_axi_gpio_2_0/artyz7_bd_axi_gpio_2_0_in_context.xdc] for cell 'artyz7_bd_i/axi_gpio_2'
+Parsing XDC File [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_axi_dma_0_0/artyz7_bd_axi_dma_0_0/artyz7_bd_axi_dma_0_0_in_context.xdc] for cell 'artyz7_bd_i/axi_dma_0'
+Finished Parsing XDC File [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_axi_dma_0_0/artyz7_bd_axi_dma_0_0/artyz7_bd_axi_dma_0_0_in_context.xdc] for cell 'artyz7_bd_i/axi_dma_0'
+Parsing XDC File [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_xbar_1/artyz7_bd_xbar_1/artyz7_bd_xbar_1_in_context.xdc] for cell 'artyz7_bd_i/axi_mem_intercon/xbar'
+Finished Parsing XDC File [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_xbar_1/artyz7_bd_xbar_1/artyz7_bd_xbar_1_in_context.xdc] for cell 'artyz7_bd_i/axi_mem_intercon/xbar'
+Parsing XDC File [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_auto_us_0/artyz7_bd_auto_us_0/artyz7_bd_auto_us_0_in_context.xdc] for cell 'artyz7_bd_i/axi_mem_intercon/s00_couplers/auto_us'
+Finished Parsing XDC File [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_auto_us_0/artyz7_bd_auto_us_0/artyz7_bd_auto_us_0_in_context.xdc] for cell 'artyz7_bd_i/axi_mem_intercon/s00_couplers/auto_us'
+Parsing XDC File [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_auto_us_1/artyz7_bd_auto_us_1/artyz7_bd_auto_us_1_in_context.xdc] for cell 'artyz7_bd_i/axi_mem_intercon/s01_couplers/auto_us'
+Finished Parsing XDC File [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_auto_us_1/artyz7_bd_auto_us_1/artyz7_bd_auto_us_1_in_context.xdc] for cell 'artyz7_bd_i/axi_mem_intercon/s01_couplers/auto_us'
+Parsing XDC File [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_auto_pc_1/artyz7_bd_auto_pc_1/artyz7_bd_auto_pc_1_in_context.xdc] for cell 'artyz7_bd_i/axi_mem_intercon/m00_couplers/auto_pc'
+Finished Parsing XDC File [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_auto_pc_1/artyz7_bd_auto_pc_1/artyz7_bd_auto_pc_1_in_context.xdc] for cell 'artyz7_bd_i/axi_mem_intercon/m00_couplers/auto_pc'
+Parsing XDC File [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_axis_data_fifo_0_0/artyz7_bd_axis_data_fifo_0_0/artyz7_bd_axis_data_fifo_0_0_in_context.xdc] for cell 'artyz7_bd_i/axis_data_fifo_0'
+Finished Parsing XDC File [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_axis_data_fifo_0_0/artyz7_bd_axis_data_fifo_0_0/artyz7_bd_axis_data_fifo_0_0_in_context.xdc] for cell 'artyz7_bd_i/axis_data_fifo_0'
+Parsing XDC File [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_system_ila_0_0/artyz7_bd_system_ila_0_0/artyz7_bd_system_ila_0_0_in_context.xdc] for cell 'artyz7_bd_i/system_ila_0'
+Finished Parsing XDC File [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_system_ila_0_0/artyz7_bd_system_ila_0_0/artyz7_bd_system_ila_0_0_in_context.xdc] for cell 'artyz7_bd_i/system_ila_0'
 Parsing XDC File [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/dont_touch.xdc]
 Finished Parsing XDC File [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2632.941 ; gain = 0.000 ; free physical = 17837 ; free virtual = 28230
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2681.816 ; gain = 0.000 ; free physical = 13248 ; free virtual = 26265
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 34 instances were transformed.
   IOBUF => IOBUF (IBUF, OBUFT): 34 instances
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2632.941 ; gain = 0.000 ; free physical = 17837 ; free virtual = 28230
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2681.816 ; gain = 0.000 ; free physical = 13248 ; free virtual = 26265
 WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'artyz7_bd_i/axi_quad_spi_0' at clock pin 'ext_spi_clk' is different from the actual clock period '10.000', this can lead to different synthesis results.
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 2632.941 ; gain = 181.484 ; free physical = 17915 ; free virtual = 28309
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2681.816 ; gain = 230.359 ; free physical = 13322 ; free virtual = 26339
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 2632.941 ; gain = 181.484 ; free physical = 17915 ; free virtual = 28309
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2681.816 ; gain = 230.359 ; free physical = 13322 ; free virtual = 26339
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -548,11 +611,19 @@ Applied set_property KEEP_HIERARCHY = SOFT for artyz7_bd_i/axi_quad_spi_0. (cons
 Applied set_property KEEP_HIERARCHY = SOFT for artyz7_bd_i/axi_gpio_1. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for artyz7_bd_i/axi_gpio_2. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for artyz7_bd_i/xlconcat_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for artyz7_bd_i/axi_dma_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for artyz7_bd_i/axi_mem_intercon/xbar. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for artyz7_bd_i/axi_mem_intercon/s00_couplers/auto_us. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for artyz7_bd_i/axi_mem_intercon/s01_couplers/auto_us. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for artyz7_bd_i/axi_mem_intercon/m00_couplers/auto_pc. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for artyz7_bd_i/axi_mem_intercon. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for artyz7_bd_i/axis_data_fifo_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for artyz7_bd_i/system_ila_0. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2632.941 ; gain = 181.484 ; free physical = 17915 ; free virtual = 28309
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 2681.816 ; gain = 230.359 ; free physical = 13322 ; free virtual = 26340
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2632.941 ; gain = 181.484 ; free physical = 17914 ; free virtual = 28308
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 2681.816 ; gain = 230.359 ; free physical = 13323 ; free virtual = 26341
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -574,25 +645,25 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 2632.941 ; gain = 181.484 ; free physical = 17901 ; free virtual = 28299
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 2681.816 ; gain = 230.359 ; free physical = 13309 ; free virtual = 26331
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 2632.941 ; gain = 181.484 ; free physical = 17779 ; free virtual = 28177
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 2681.816 ; gain = 230.359 ; free physical = 13185 ; free virtual = 26207
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 2632.941 ; gain = 181.484 ; free physical = 17779 ; free virtual = 28177
+Finished Timing Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 2681.816 ; gain = 230.359 ; free physical = 13187 ; free virtual = 26209
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 2632.941 ; gain = 181.484 ; free physical = 17780 ; free virtual = 28178
+Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 2681.816 ; gain = 230.359 ; free physical = 13186 ; free virtual = 26208
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -610,37 +681,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 2632.941 ; gain = 181.484 ; free physical = 17780 ; free virtual = 28178
+Finished IO Insertion : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2681.816 ; gain = 230.359 ; free physical = 13185 ; free virtual = 26207
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 2632.941 ; gain = 181.484 ; free physical = 17780 ; free virtual = 28178
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2681.816 ; gain = 230.359 ; free physical = 13185 ; free virtual = 26207
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 2632.941 ; gain = 181.484 ; free physical = 17780 ; free virtual = 28178
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2681.816 ; gain = 230.359 ; free physical = 13185 ; free virtual = 26207
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 2632.941 ; gain = 181.484 ; free physical = 17780 ; free virtual = 28178
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2681.816 ; gain = 230.359 ; free physical = 13185 ; free virtual = 26207
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 2632.941 ; gain = 181.484 ; free physical = 17780 ; free virtual = 28178
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 2681.816 ; gain = 230.359 ; free physical = 13186 ; free virtual = 26208
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 2632.941 ; gain = 181.484 ; free physical = 17780 ; free virtual = 28178
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 2681.816 ; gain = 230.359 ; free physical = 13186 ; free virtual = 26208
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -650,55 +721,66 @@ Report BlackBoxes:
 +------+---------------------------------+----------+
 |      |BlackBox name                    |Instances |
 +------+---------------------------------+----------+
-|1     |artyz7_bd_xbar_0                 |         1|
-|2     |artyz7_bd_auto_pc_0              |         1|
-|3     |artyz7_bd_axi_gpio_0_0           |         1|
-|4     |artyz7_bd_axi_gpio_1_0           |         1|
-|5     |artyz7_bd_axi_gpio_2_0           |         1|
-|6     |artyz7_bd_axi_quad_spi_0_0       |         1|
-|7     |artyz7_bd_clk_wiz_0_0            |         1|
-|8     |artyz7_bd_processing_system7_0_0 |         1|
-|9     |artyz7_bd_rst_ps7_0_100M_0       |         1|
+|1     |artyz7_bd_xbar_1                 |         1|
+|2     |artyz7_bd_auto_pc_1              |         1|
+|3     |artyz7_bd_auto_us_0              |         1|
+|4     |artyz7_bd_auto_us_1              |         1|
+|5     |artyz7_bd_xbar_0                 |         1|
+|6     |artyz7_bd_auto_pc_0              |         1|
+|7     |artyz7_bd_axi_dma_0_0            |         1|
+|8     |artyz7_bd_axi_gpio_0_0           |         1|
+|9     |artyz7_bd_axi_gpio_1_0           |         1|
+|10    |artyz7_bd_axi_gpio_2_0           |         1|
+|11    |artyz7_bd_axi_quad_spi_0_0       |         1|
+|12    |artyz7_bd_axis_data_fifo_0_0     |         1|
+|13    |artyz7_bd_clk_wiz_0_0            |         1|
+|14    |artyz7_bd_processing_system7_0_0 |         1|
+|15    |artyz7_bd_rst_ps7_0_100M_0       |         1|
+|16    |artyz7_bd_system_ila_0_0         |         1|
 +------+---------------------------------+----------+
 
 Report Cell Usage: 
 +------+-------------------------------+------+
 |      |Cell                           |Count |
 +------+-------------------------------+------+
-|1     |artyz7_bd_auto_pc              |     1|
-|2     |artyz7_bd_axi_gpio_0           |     1|
-|3     |artyz7_bd_axi_gpio_1           |     1|
-|4     |artyz7_bd_axi_gpio_2           |     1|
-|5     |artyz7_bd_axi_quad_spi_0       |     1|
-|6     |artyz7_bd_clk_wiz_0            |     1|
-|7     |artyz7_bd_processing_system7_0 |     1|
-|8     |artyz7_bd_rst_ps7_0_100M       |     1|
-|9     |artyz7_bd_xbar                 |     1|
-|10    |IBUF                           |     6|
-|11    |IOBUF                          |    34|
-|12    |OBUF                           |    10|
+|1     |artyz7_bd_auto_pc              |     2|
+|3     |artyz7_bd_auto_us              |     2|
+|5     |artyz7_bd_axi_dma_0            |     1|
+|6     |artyz7_bd_axi_gpio_0           |     1|
+|7     |artyz7_bd_axi_gpio_1           |     1|
+|8     |artyz7_bd_axi_gpio_2           |     1|
+|9     |artyz7_bd_axi_quad_spi_0       |     1|
+|10    |artyz7_bd_axis_data_fifo_0     |     1|
+|11    |artyz7_bd_clk_wiz_0            |     1|
+|12    |artyz7_bd_processing_system7_0 |     1|
+|13    |artyz7_bd_rst_ps7_0_100M       |     1|
+|14    |artyz7_bd_system_ila_0         |     1|
+|15    |artyz7_bd_xbar                 |     2|
+|17    |IBUF                           |     6|
+|18    |IOBUF                          |    34|
+|19    |OBUF                           |    10|
 +------+-------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 2632.941 ; gain = 181.484 ; free physical = 17780 ; free virtual = 28178
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 2681.816 ; gain = 230.359 ; free physical = 13186 ; free virtual = 26208
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 2632.941 ; gain = 19.734 ; free physical = 17836 ; free virtual = 28234
-Synthesis Optimization Complete : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 2632.941 ; gain = 181.484 ; free physical = 17836 ; free virtual = 28234
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 2681.816 ; gain = 64.672 ; free physical = 13243 ; free virtual = 26265
+Synthesis Optimization Complete : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 2681.816 ; gain = 230.359 ; free physical = 13243 ; free virtual = 26265
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:04 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2632.941 ; gain = 0.000 ; free physical = 17918 ; free virtual = 28316
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2681.816 ; gain = 0.000 ; free physical = 13329 ; free virtual = 26351
 INFO: [Netlist 29-17] Analyzing 34 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2632.941 ; gain = 0.000 ; free physical = 17862 ; free virtual = 28260
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2681.816 ; gain = 0.000 ; free physical = 13268 ; free virtual = 26290
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 34 instances were transformed.
   IOBUF => IOBUF (IBUF, OBUFT): 34 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-59 Infos, 16 Warnings, 0 Critical Warnings and 0 Errors encountered.
+86 Infos, 38 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:21 . Memory (MB): peak = 2632.941 ; gain = 181.594 ; free physical = 17998 ; free virtual = 28396
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:23 . Memory (MB): peak = 2681.816 ; gain = 230.469 ; free physical = 13404 ; free virtual = 26426
 INFO: [Common 17-1381] The checkpoint '/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/synth_1_copy_1/artyz7_bd_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file artyz7_bd_wrapper_utilization_synth.rpt -pb artyz7_bd_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Fri May 21 15:31:33 2021...
+INFO: [Common 17-206] Exiting Vivado at Thu Jul  1 18:04:18 2021...

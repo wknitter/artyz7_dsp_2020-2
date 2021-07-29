@@ -1,0 +1,150 @@
+/*
+
+Xilinx Vitis v2020.2.0 (64-bit) [Major: 2020, Minor: 2]
+SW Build 3064172 on 2020-11-18-06:24:19
+
+Process ID (PID): 6309
+License: Customer
+
+Current time: 	Tue Jul 13 12:53:10 PDT 2021
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Ubuntu
+OS Version: 4.15.0-147-generic
+OS Architecture: amd64
+Available processors (cores): 8
+
+Display: :0
+Screen size: 2560x1377
+Available screens: 1
+Available disk space: 197 GB
+
+Java version: 	11.0.2 64-bit
+Java home: 	/tools/Xilinx/Vitis/2020.2/tps/lnx64/jre11.0.2
+Java executable location: 	/tools/Xilinx/Vitis/2020.2/tps/lnx64/jre11.0.2/bin/java
+Java initial memory (-Xms): 	64 MB
+Java maximum memory (-Xmx):	 1,024 MB
+
+Java library paths: /tools/Xilinx/Vitis/2020.2/tps/lnx64/javafx-sdk-11.0.2/lib:/tools/Xilinx/Vitis/2020.2/lib/lnx64.o/Ubuntu/18:/tools/Xilinx/Vitis/2020.2/lib/lnx64.o/Ubuntu:/tools/Xilinx/Vitis/2020.2/lib/lnx64.o:/tools/Xilinx/Vitis/2020.2/tps/lnx64/jre11.0.2/lib/:/tools/Xilinx/Vitis/2020.2/tps/lnx64/jre11.0.2/lib//server:/tools/Xilinx/Vitis/2020.2/lib/lnx64.o:/tools/Xilinx/Vitis/2020.2/lib/lnx64.o/Ubuntu/18:/tools/Xilinx/Vitis/2020.2/lib/lnx64.o/Ubuntu:/tools/Xilinx/Vitis/2020.2/lib/lnx64.o:/tools/Xilinx/Vitis/2020.2/tps/lnx64/python-3.8.3/lib:/opt/xilinx/xrt/lib:/tools/Xilinx/Vivado/2020.2/bin/../lnx64/tools/dot/lib:/tools/Xilinx/Vitis/2020.2/bin/../lnx64/tools/dot/lib:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+
+Java class paths: /tools/Xilinx/Vitis/2020.2/eclipse/lnx64.o//plugins/org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar
+LD_LIBRARY_PATH: /tools/Xilinx/Vitis
+
+User name: 	parallels
+User home directory: /home/parallels
+User working directory: /home/parallels/artyz7_dsp_2020-2/artyz7_os
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /tools/Xilinx/Vitis
+HDI_APPROOT: /tools/Xilinx/Vitis/2020.2
+RDI_DATADIR: /tools/Xilinx/Vitis/2020.2/data
+RDI_BINDIR: /tools/Xilinx/Vitis/2020.2/bin
+
+Vitis preferences directory: /home/parallels/.Xilinx/Vitis/2020.2/
+Vitis workspace directory: /home/parallels/artyz7_dsp_2020-2/vitis_workspace
+Vitis workspace log file location: /home/parallels/artyz7_dsp_2020-2/vitis_workspace/.metadata/.log
+Engine tmp dir: 	
+
+Xilinx Environment Variables
+----------------------------
+XILINX_DSP: 
+XILINX_HLS: /tools/Xilinx/Vitis_HLS/2020.2
+XILINX_PLANAHEAD: /tools/Xilinx/Vitis/2020.2
+XILINX_SDK: /tools/Xilinx/Vitis/2020.2
+XILINX_VITIS: /tools/Xilinx/Vitis/2020.2
+XILINX_VIVADO: /tools/Xilinx/Vivado/2020.2
+XILINX_VIVADO_HLS: /tools/Xilinx/Vivado/2020.2
+XILINX_XRT: /opt/xilinx/xrt
+_RDI_DONT_SET_XILINX_AS_PATH: True
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+closeView("xdmaps.h", "artyz7/export/artyz7/sw/artyz7/standalone_domain/bspinclude/include/xdmaps.h", "CEditor", "CTabItem.XDMAPS_H");
+activateView("xdmaps_example_w_intr_1_system", "xdmaps_example_w_intr_1_system/xdmaps_example_w_int", "SystemProjectSettingsEditor", "CTabItem.XDMAPS_EXAMPLE_W_INTR_1_SYSTEM");
+closeView("xdmaps_example_w_intr_1_system", "xdmaps_example_w_intr_1_system/xdmaps_example_w_intr_1_system.sprj", "SystemSettingsEditor", "CTabItem.XDMAPS_EXAMPLE_W_INTR_1_SYSTEM");
+activateView("helloworld.c", "hello_artyz7/src/helloworld.c", "CEditor", "CTabItem.HELLOWORLD_C");
+selectTreeTable("Debug", "hello_artyz7_system > hello_artyz7", "helloworld.c", "CEditor", "TreeViewer.NavigatorContentServiceContentProvider");
+activateView("artyz7", "artyz7/platform.spr", "ScwEditor", "CTabItem.ARTYZ7");
+selectToolBarMenuButton("New", "artyz7", "WorkbenchWindow", "ToolItem.NEW");
+selectMenuItem("Application Project", "Explorer", "WorkbenchWindow", "MenuItem.APPLICATION_PROJECT");
+selectButton("Next", "New Application Project (Create a New Application Project)", "NewAppProjectWizard", "Button.NEXT");
+selectButton("Next", "New Application Project (Platform)", "NewAppProjectWizard", "Button.NEXT");
+setTextField("linux_debug", "New Application Project (Application Project Details)", "NewAppProjectWizard", "Text.APPLICATION_PROJECT_NAME");
+selectButton("Next", "New Application Project (Application Project Details)", "NewAppProjectWizard", "Button.NEXT");
+selectButton("Next", "New Application Project (Domain)", "NewAppProjectWizard", "Button.NEXT");
+selectTreeTable("lwIP Echo Server", "SW development templates", "New Application Project (Templates)", "NewAppProjectWizard", "TreeViewer.TemplateContentProvider");
+selectTreeTable("lwIP UDP Perf Client", "SW development templates", "New Application Project (Templates)", "NewAppProjectWizard", "TreeViewer.TemplateContentProvider");
+selectTreeTable("Dhrystone", "SW development templates", "New Application Project (Templates)", "NewAppProjectWizard", "TreeViewer.TemplateContentProvider");
+selectTreeTable("Empty Application", "SW development templates", "New Application Project (Templates)", "NewAppProjectWizard", "TreeViewer.TemplateContentProvider");
+selectTreeTable("Hello World", "SW development templates", "New Application Project (Templates)", "NewAppProjectWizard", "TreeViewer.TemplateContentProvider");
+selectTreeTable("lwIP Echo Server", "SW development templates", "New Application Project (Templates)", "NewAppProjectWizard", "TreeViewer.TemplateContentProvider");
+selectTreeTable("lwIP TCP Perf Client", "SW development templates", "New Application Project (Templates)", "NewAppProjectWizard", "TreeViewer.TemplateContentProvider");
+selectTreeTable("lwIP TCP Perf Server", "SW development templates", "New Application Project (Templates)", "NewAppProjectWizard", "TreeViewer.TemplateContentProvider");
+selectTreeTable("lwIP UDP Perf Server", "SW development templates", "New Application Project (Templates)", "NewAppProjectWizard", "TreeViewer.TemplateContentProvider");
+selectTreeTable("OpenAMP echo-test", "SW development templates", "New Application Project (Templates)", "NewAppProjectWizard", "TreeViewer.TemplateContentProvider");
+selectButton("Back", "New Application Project (Templates)", "NewAppProjectWizard", "Button.BACK");
+selectButton("Back", "New Application Project (Domain)", "NewAppProjectWizard", "Button.BACK");
+selectButton("Back", "New Application Project (Application Project Details)", "NewAppProjectWizard", "Button.BACK");
+selectButton("Back", "New Application Project (Platform)", "NewAppProjectWizard", "Button.BACK");
+selectButton("Cancel", "New Application Project (Create a New Application Project)", "NewAppProjectWizard", "Button.CANCEL");
+selectToolBarButton("Add Domain", "artyz7", "CTabItem", "ToolItem.ADD_DOMAIN");
+setTextField("linux", "New Domain in artyz7", "ScwAddDomainDialog", "Text.NAME");
+selectCombo("linux", "New Domain in artyz7", "ScwAddDomainDialog", "ComboViewer.OS");
+selectButton("OK", "New Domain in artyz7", "ScwAddDomainDialog", "Button.OK");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectTreeTable("artyz7", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectTreeTable("xdmaps_example_w_intr_1_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Delete", "Explorer", "ProjectExplorer", "MenuItem.DELETE");
+selectCheckBox("Delete project contents on disk", Boolean.TRUE, "Delete Resources", "RefactoringWizardDialog2", "Button.DELETE_PROJECT_CONTENTS");
+selectButton("OK", "Delete Resources", "RefactoringWizardDialog2", "Button.OK");
+selectTreeTable("hello_artyz7", "hello_artyz7_system", "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectTreeTable("hello_artyz7_system", "hello_artyz7_system", "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectToolBarButton("Build Debug for project hello_artyz7_system", "hello_artyz7_system", "WorkbenchWindow", "ToolItem.BUILD_DEBUG_FOR");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectTreeTable("artyz7", "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectToolBarMenuButton("New", "artyz7", "WorkbenchWindow", "ToolItem.NEW");
+selectMenuItem("Application Project", "Explorer", "WorkbenchWindow", "MenuItem.APPLICATION_PROJECT");
+selectButton("Next", "New Application Project (Create a New Application Project)", "NewAppProjectWizard", "Button.NEXT");
+selectButton("Next", "New Application Project (Platform)", "NewAppProjectWizard", "Button.NEXT");
+selectButton("Back", "New Application Project (Application Project Details)", "NewAppProjectWizard", "Button.BACK");
+selectButton("Next", "New Application Project (Platform)", "NewAppProjectWizard", "Button.NEXT");
+selectTreeTable("ps7_cortexa9 SMP", "New Application Project (Application Project Details)", "NewAppProjectWizard", "ProjectDetailsPage");
+selectTreeTable("ps7_cortexa9_0", "New Application Project (Application Project Details)", "NewAppProjectWizard", "ProjectDetailsPage");
+selectTreeTable("ps7_cortexa9 SMP", "New Application Project (Application Project Details)", "NewAppProjectWizard", "ProjectDetailsPage");
+setTextField("dmatest", "New Application Project (Application Project Details)", "NewAppProjectWizard", "Text.APPLICATION_PROJECT_NAME");
+selectButton("Back", "New Application Project (Application Project Details)", "NewAppProjectWizard", "Button.BACK");
+selectButton("Back", "New Application Project (Platform)", "NewAppProjectWizard", "Button.BACK");
+selectButton("Next", "New Application Project (Create a New Application Project)", "NewAppProjectWizard", "Button.NEXT");
+selectButton("Next", "New Application Project (Platform)", "NewAppProjectWizard", "Button.NEXT");
+selectButton("Next", "New Application Project (Application Project Details)", "NewAppProjectWizard", "Button.NEXT");
+selectButton("Next", "New Application Project (Domain)", "NewAppProjectWizard", "Button.NEXT");
+selectButton("Finish", "New Application Project (Templates)", "NewAppProjectWizard", "Button.FINISH");
+activateView("artyz7", "artyz7/platform.spr", "ScwEditor", "CTabItem.ARTYZ7");
+selectToolBarButton("Add Domain", "artyz7", "CTabItem", "ToolItem.ADD_DOMAIN");
+setTextField("linux", "New Domain in artyz7", "ScwAddDomainDialog", "Text.NAME");
+selectCombo("linux", "New Domain in artyz7", "ScwAddDomainDialog", "ComboViewer.OS");
+selectButton("Cancel", "New Domain in artyz7", "ScwAddDomainDialog", "Button.CANCEL");
+closeView("hello_artyz7", "hello_artyz7/hello_artyz7.prj", "SDXSettingsEditor", "CTabItem.HELLO_ARTYZ7");
+closeView("helloworld.c", "hello_artyz7/src/helloworld.c", "CEditor", "CTabItem.HELLOWORLD_C");
+activateView("dmatest_system", "dmatest_system/dmatest_system.sprj", "SystemSettingsEditor", "CTabItem.DMATEST_SYSTEM");
+activateView("dmatest", "dmatest/dmatest.prj", "SDXSettingsEditor", "CTabItem.DMATEST");
+activateView("artyz7", "artyz7/platform.spr", "ScwEditor", "CTabItem.ARTYZ7");
+selectTreeTable("src", "dmatest_system > dmatest", "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectTreeTable("helloworld.c", "dmatest_system > dmatest > src", EventType.DOUBLE_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectTreeTable("dmatest_system", "dmatest_system > dmatest > src", "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectTreeTable("Debug", "dmatest_system > dmatest", "Console", "ConsoleView", "TreeViewer.NavigatorContentServiceContentProvider");
+activateView("Problems", "ProblemsView", "CTabItem.PROBLEMS");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectButton("Exit", "Confirm Exit", "MessageDialogWithToggle", "Button.EXIT");
+// Exiting Xilinx Vitis with a status code '0' at 7/13/21, 2:09:13 PM PDT
+// Elapsed time: 01:16:03
+

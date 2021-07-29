@@ -52,12 +52,12 @@
     <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
     <Step Id="synth_design"/>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="artyz7_bd_processing_system7_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="artyz7_bd_clk_wiz_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="artyz7_bd_axi_gpio_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="artyz7_bd_rst_ps7_0_100M_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="artyz7_bd_axi_quad_spi_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="artyz7_bd_axi_gpio_1_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="artyz7_bd_axi_gpio_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="artyz7_bd_axi_gpio_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="artyz7_bd_clk_wiz_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="artyz7_bd_processing_system7_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="artyz7_bd_xbar_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="artyz7_bd_axi_gpio_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="artyz7_bd_axi_gpio_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="artyz7_bd_axi_quad_spi_0_0"/>
 </GenRun>

@@ -17,15 +17,21 @@
         <favorites/>
     </launchGroup>
     <launchGroup id="com.xilinx.ide.launchGroup.emb.debug">
-        <mruHistory/>
+        <mruHistory>
+            <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/dmatest/_ide/launch/Debugger_dmatest-Default.launch&quot;/&gt;&#10;"/>
+        </mruHistory>
         <favorites/>
     </launchGroup>
     <launchGroup id="com.xilinx.ide.launchGroup.embocl.run">
-        <mruHistory/>
+        <mruHistory>
+            <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/dmatest/_ide/launch/Debugger_dmatest-Default.launch&quot;/&gt;&#10;"/>
+        </mruHistory>
         <favorites/>
     </launchGroup>
     <launchGroup id="org.eclipse.debug.ui.launchGroup.run">
-        <mruHistory/>
+        <mruHistory>
+            <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/dmatest/_ide/launch/Debugger_dmatest-Default.launch&quot;/&gt;&#10;"/>
+        </mruHistory>
         <favorites/>
     </launchGroup>
     <launchGroup id="com.xilinx.ide.launchGroup.system.run">
@@ -37,7 +43,9 @@
         <favorites/>
     </launchGroup>
     <launchGroup id="com.xilinx.ide.launchGroup.embocl.debug">
-        <mruHistory/>
+        <mruHistory>
+            <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/dmatest/_ide/launch/Debugger_dmatest-Default.launch&quot;/&gt;&#10;"/>
+        </mruHistory>
         <favorites/>
     </launchGroup>
     <launchGroup id="com.xilinx.ide.launchGroup.system.debug">
@@ -57,11 +65,15 @@
         <favorites/>
     </launchGroup>
     <launchGroup id="org.eclipse.debug.ui.launchGroup.debug">
-        <mruHistory/>
+        <mruHistory>
+            <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/dmatest/_ide/launch/Debugger_dmatest-Default.launch&quot;/&gt;&#10;"/>
+        </mruHistory>
         <favorites/>
     </launchGroup>
     <launchGroup id="com.xilinx.ide.launchGroup.emb.run">
-        <mruHistory/>
+        <mruHistory>
+            <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/dmatest/_ide/launch/Debugger_dmatest-Default.launch&quot;/&gt;&#10;"/>
+        </mruHistory>
         <favorites/>
     </launchGroup>
     <launchGroup id="com.xilinx.ide.launchGroup.aie.run">

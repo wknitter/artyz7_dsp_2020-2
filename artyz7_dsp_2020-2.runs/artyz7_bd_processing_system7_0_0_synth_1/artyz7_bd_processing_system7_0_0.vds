@@ -2,14 +2,15 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Fri May 21 13:22:14 2021
-# Process ID: 20195
+# Start of session at: Wed Jun 30 18:05:50 2021
+# Process ID: 420
 # Current directory: /home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/artyz7_bd_processing_system7_0_0_synth_1
 # Command line: vivado -log artyz7_bd_processing_system7_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source artyz7_bd_processing_system7_0_0.tcl
 # Log file: /home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/artyz7_bd_processing_system7_0_0_synth_1/artyz7_bd_processing_system7_0_0.vds
 # Journal file: /home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/artyz7_bd_processing_system7_0_0_synth_1/vivado.jou
 #-----------------------------------------------------------
 source artyz7_bd_processing_system7_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 2506.336 ; gain = 57.016 ; free physical = 19162 ; free virtual = 27089
 Command: synth_design -top artyz7_bd_processing_system7_0_0 -part xc7z020clg400-1 -mode out_of_context
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
@@ -17,9 +18,9 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020
 INFO: [Device 21-403] Loading part xc7z020clg400-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 20488
+INFO: [Synth 8-7075] Helper process launched with PID 631
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:12 . Memory (MB): peak = 2552.488 ; gain = 0.000 ; free physical = 15596 ; free virtual = 22618
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 2506.445 ; gain = 0.000 ; free physical = 15804 ; free virtual = 23775
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'artyz7_bd_processing_system7_0_0' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_processing_system7_0_0/synth/artyz7_bd_processing_system7_0_0.v:60]
 INFO: [Synth 8-6157] synthesizing module 'processing_system7_v5_5_processing_system7' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:161]
@@ -44,7 +45,7 @@ INFO: [Synth 8-6157] synthesizing module 'processing_system7_v5_5_processing_sys
 	Parameter C_S_AXI_HP2_DATA_WIDTH bound to: 64 - type: integer 
 	Parameter C_S_AXI_HP3_DATA_WIDTH bound to: 64 - type: integer 
 	Parameter C_INCLUDE_ACP_TRANS_CHECK bound to: 0 - type: integer 
-	Parameter C_NUM_F2P_INTR_INPUTS bound to: 2 - type: integer 
+	Parameter C_NUM_F2P_INTR_INPUTS bound to: 4 - type: integer 
 	Parameter C_FCLK_CLK0_BUF bound to: TRUE - type: string 
 	Parameter C_FCLK_CLK1_BUF bound to: FALSE - type: string 
 	Parameter C_FCLK_CLK2_BUF bound to: FALSE - type: string 
@@ -68,7 +69,7 @@ INFO: [Synth 8-6157] synthesizing module 'processing_system7_v5_5_processing_sys
 	Parameter C_TRACE_INTERNAL_WIDTH bound to: 2 - type: integer 
 	Parameter C_EN_EMIO_PJTAG bound to: 0 - type: integer 
 	Parameter C_USE_AXI_NONSECURE bound to: 0 - type: integer 
-	Parameter C_USE_S_AXI_HP0 bound to: 0 - type: integer 
+	Parameter C_USE_S_AXI_HP0 bound to: 1 - type: integer 
 	Parameter C_USE_S_AXI_HP1 bound to: 0 - type: integer 
 	Parameter C_USE_S_AXI_HP2 bound to: 0 - type: integer 
 	Parameter C_USE_S_AXI_HP3 bound to: 0 - type: integer 
@@ -86,34 +87,34 @@ INFO: [Synth 8-6155] done synthesizing module 'BIBUF' (2#1) [/tools/Xilinx/Vivad
 INFO: [Synth 8-6157] synthesizing module 'PS7' [/tools/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:62034]
 INFO: [Synth 8-6155] done synthesizing module 'PS7' (3#1) [/tools/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:62034]
 INFO: [Synth 8-6155] done synthesizing module 'processing_system7_v5_5_processing_system7' (4#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:161]
-WARNING: [Synth 8-7071] port 'M_AXI_GP0_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_processing_system7_0_0/synth/artyz7_bd_processing_system7_0_0.v:327]
-WARNING: [Synth 8-7071] port 'M_AXI_GP1_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_processing_system7_0_0/synth/artyz7_bd_processing_system7_0_0.v:327]
-WARNING: [Synth 8-7071] port 'S_AXI_GP0_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_processing_system7_0_0/synth/artyz7_bd_processing_system7_0_0.v:327]
-WARNING: [Synth 8-7071] port 'S_AXI_GP1_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_processing_system7_0_0/synth/artyz7_bd_processing_system7_0_0.v:327]
-WARNING: [Synth 8-7071] port 'S_AXI_ACP_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_processing_system7_0_0/synth/artyz7_bd_processing_system7_0_0.v:327]
-WARNING: [Synth 8-7071] port 'S_AXI_HP0_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_processing_system7_0_0/synth/artyz7_bd_processing_system7_0_0.v:327]
-WARNING: [Synth 8-7071] port 'S_AXI_HP1_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_processing_system7_0_0/synth/artyz7_bd_processing_system7_0_0.v:327]
-WARNING: [Synth 8-7071] port 'S_AXI_HP2_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_processing_system7_0_0/synth/artyz7_bd_processing_system7_0_0.v:327]
-WARNING: [Synth 8-7071] port 'S_AXI_HP3_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_processing_system7_0_0/synth/artyz7_bd_processing_system7_0_0.v:327]
-WARNING: [Synth 8-7071] port 'DMA0_RSTN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_processing_system7_0_0/synth/artyz7_bd_processing_system7_0_0.v:327]
-WARNING: [Synth 8-7071] port 'DMA1_RSTN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_processing_system7_0_0/synth/artyz7_bd_processing_system7_0_0.v:327]
-WARNING: [Synth 8-7071] port 'DMA2_RSTN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_processing_system7_0_0/synth/artyz7_bd_processing_system7_0_0.v:327]
-WARNING: [Synth 8-7071] port 'DMA3_RSTN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_processing_system7_0_0/synth/artyz7_bd_processing_system7_0_0.v:327]
-WARNING: [Synth 8-7023] instance 'inst' of module 'processing_system7_v5_5_processing_system7' has 685 connections declared, but only 672 given [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_processing_system7_0_0/synth/artyz7_bd_processing_system7_0_0.v:327]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_processing_system7_0_0/synth/artyz7_bd_processing_system7_0_0.v:465]
+WARNING: [Synth 8-7071] port 'M_AXI_GP1_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_processing_system7_0_0/synth/artyz7_bd_processing_system7_0_0.v:465]
+WARNING: [Synth 8-7071] port 'S_AXI_GP0_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_processing_system7_0_0/synth/artyz7_bd_processing_system7_0_0.v:465]
+WARNING: [Synth 8-7071] port 'S_AXI_GP1_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_processing_system7_0_0/synth/artyz7_bd_processing_system7_0_0.v:465]
+WARNING: [Synth 8-7071] port 'S_AXI_ACP_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_processing_system7_0_0/synth/artyz7_bd_processing_system7_0_0.v:465]
+WARNING: [Synth 8-7071] port 'S_AXI_HP0_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_processing_system7_0_0/synth/artyz7_bd_processing_system7_0_0.v:465]
+WARNING: [Synth 8-7071] port 'S_AXI_HP1_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_processing_system7_0_0/synth/artyz7_bd_processing_system7_0_0.v:465]
+WARNING: [Synth 8-7071] port 'S_AXI_HP2_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_processing_system7_0_0/synth/artyz7_bd_processing_system7_0_0.v:465]
+WARNING: [Synth 8-7071] port 'S_AXI_HP3_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_processing_system7_0_0/synth/artyz7_bd_processing_system7_0_0.v:465]
+WARNING: [Synth 8-7071] port 'DMA0_RSTN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_processing_system7_0_0/synth/artyz7_bd_processing_system7_0_0.v:465]
+WARNING: [Synth 8-7071] port 'DMA1_RSTN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_processing_system7_0_0/synth/artyz7_bd_processing_system7_0_0.v:465]
+WARNING: [Synth 8-7071] port 'DMA2_RSTN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_processing_system7_0_0/synth/artyz7_bd_processing_system7_0_0.v:465]
+WARNING: [Synth 8-7071] port 'DMA3_RSTN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_processing_system7_0_0/synth/artyz7_bd_processing_system7_0_0.v:465]
+WARNING: [Synth 8-7023] instance 'inst' of module 'processing_system7_v5_5_processing_system7' has 685 connections declared, but only 672 given [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_processing_system7_0_0/synth/artyz7_bd_processing_system7_0_0.v:465]
 INFO: [Synth 8-6155] done synthesizing module 'artyz7_bd_processing_system7_0_0' (5#1) [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/ip/artyz7_bd_processing_system7_0_0/synth/artyz7_bd_processing_system7_0_0.v:60]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:15 . Memory (MB): peak = 2552.488 ; gain = 0.000 ; free physical = 14823 ; free virtual = 21849
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 2506.445 ; gain = 0.000 ; free physical = 15193 ; free virtual = 23172
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:15 . Memory (MB): peak = 2552.488 ; gain = 0.000 ; free physical = 16190 ; free virtual = 23216
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 2506.445 ; gain = 0.000 ; free physical = 14959 ; free virtual = 22939
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:15 . Memory (MB): peak = 2552.488 ; gain = 0.000 ; free physical = 16189 ; free virtual = 23215
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 2506.445 ; gain = 0.000 ; free physical = 14959 ; free virtual = 22939
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2552.488 ; gain = 0.000 ; free physical = 16211 ; free virtual = 23237
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2506.445 ; gain = 0.000 ; free physical = 14741 ; free virtual = 22721
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -126,30 +127,30 @@ Parsing XDC File [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/artyz
 Finished Parsing XDC File [/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/artyz7_bd_processing_system7_0_0_synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2616.410 ; gain = 0.000 ; free physical = 17750 ; free virtual = 24777
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2570.367 ; gain = 0.000 ; free physical = 16538 ; free virtual = 24535
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2616.410 ; gain = 0.000 ; free physical = 17760 ; free virtual = 24787
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2570.367 ; gain = 0.000 ; free physical = 16538 ; free virtual = 24535
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:21 . Memory (MB): peak = 2616.410 ; gain = 63.922 ; free physical = 17744 ; free virtual = 24799
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:17 . Memory (MB): peak = 2570.367 ; gain = 63.922 ; free physical = 16591 ; free virtual = 24589
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:21 . Memory (MB): peak = 2616.410 ; gain = 63.922 ; free physical = 17744 ; free virtual = 24799
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:17 . Memory (MB): peak = 2570.367 ; gain = 63.922 ; free physical = 16591 ; free virtual = 24589
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  /home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/artyz7_bd_processing_system7_0_0_synth_1/dont_touch.xdc, line 9).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:22 . Memory (MB): peak = 2616.410 ; gain = 63.922 ; free physical = 17718 ; free virtual = 24773
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 2570.367 ; gain = 63.922 ; free physical = 16589 ; free virtual = 24587
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:22 . Memory (MB): peak = 2616.410 ; gain = 63.922 ; free physical = 17696 ; free virtual = 24752
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:18 . Memory (MB): peak = 2570.367 ; gain = 63.922 ; free physical = 16577 ; free virtual = 24577
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -171,25 +172,25 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:23 . Memory (MB): peak = 2616.410 ; gain = 63.922 ; free physical = 17666 ; free virtual = 24724
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:18 . Memory (MB): peak = 2570.367 ; gain = 63.922 ; free physical = 16515 ; free virtual = 24520
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:28 . Memory (MB): peak = 2682.395 ; gain = 129.906 ; free physical = 17482 ; free virtual = 24540
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:23 . Memory (MB): peak = 2685.352 ; gain = 178.906 ; free physical = 16063 ; free virtual = 24075
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:28 . Memory (MB): peak = 2702.402 ; gain = 149.914 ; free physical = 17469 ; free virtual = 24527
+Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:24 . Memory (MB): peak = 2704.359 ; gain = 197.914 ; free physical = 16050 ; free virtual = 24062
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:28 . Memory (MB): peak = 2718.418 ; gain = 165.930 ; free physical = 17495 ; free virtual = 24553
+Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:24 . Memory (MB): peak = 2720.375 ; gain = 213.930 ; free physical = 16044 ; free virtual = 24057
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -207,37 +208,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:30 . Memory (MB): peak = 2721.387 ; gain = 168.898 ; free physical = 17840 ; free virtual = 24894
+Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 2723.344 ; gain = 216.898 ; free physical = 16169 ; free virtual = 24185
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:30 . Memory (MB): peak = 2721.387 ; gain = 168.898 ; free physical = 17840 ; free virtual = 24894
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 2723.344 ; gain = 216.898 ; free physical = 16171 ; free virtual = 24185
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:30 . Memory (MB): peak = 2721.387 ; gain = 168.898 ; free physical = 17845 ; free virtual = 24900
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 2723.344 ; gain = 216.898 ; free physical = 16173 ; free virtual = 24187
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:00:30 . Memory (MB): peak = 2721.387 ; gain = 168.898 ; free physical = 17846 ; free virtual = 24901
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 2723.344 ; gain = 216.898 ; free physical = 16174 ; free virtual = 24188
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:30 . Memory (MB): peak = 2721.387 ; gain = 168.898 ; free physical = 17847 ; free virtual = 24902
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 2723.344 ; gain = 216.898 ; free physical = 16174 ; free virtual = 24188
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:00:30 . Memory (MB): peak = 2721.387 ; gain = 168.898 ; free physical = 17848 ; free virtual = 24902
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 2723.344 ; gain = 216.898 ; free physical = 16174 ; free virtual = 24188
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -259,26 +260,26 @@ Report Cell Usage:
 |4     |PS7   |     1|
 +------+------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:30 . Memory (MB): peak = 2721.387 ; gain = 168.898 ; free physical = 17847 ; free virtual = 24902
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 2723.344 ; gain = 216.898 ; free physical = 16174 ; free virtual = 24188
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:28 . Memory (MB): peak = 2721.387 ; gain = 104.977 ; free physical = 18013 ; free virtual = 25070
-Synthesis Optimization Complete : Time (s): cpu = 00:00:19 ; elapsed = 00:00:30 . Memory (MB): peak = 2721.395 ; gain = 168.898 ; free physical = 18015 ; free virtual = 25072
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:22 . Memory (MB): peak = 2723.344 ; gain = 152.977 ; free physical = 16228 ; free virtual = 24243
+Synthesis Optimization Complete : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 2723.352 ; gain = 216.898 ; free physical = 16228 ; free virtual = 24243
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:04 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2721.395 ; gain = 0.000 ; free physical = 18221 ; free virtual = 25277
+Netlist sorting complete. Time (s): cpu = 00:00:05 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2723.352 ; gain = 0.000 ; free physical = 16305 ; free virtual = 24322
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2730.293 ; gain = 0.000 ; free physical = 19867 ; free virtual = 26918
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2731.281 ; gain = 0.000 ; free physical = 16220 ; free virtual = 24237
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
 23 Infos, 14 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:35 . Memory (MB): peak = 2730.293 ; gain = 177.914 ; free physical = 20143 ; free virtual = 27195
+synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 2731.281 ; gain = 224.945 ; free physical = 16493 ; free virtual = 24510
 INFO: [Common 17-1381] The checkpoint '/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/artyz7_bd_processing_system7_0_0_synth_1/artyz7_bd_processing_system7_0_0.dcp' has been generated.
 WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
-INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP artyz7_bd_processing_system7_0_0, cache-ID = 7436852a5429f352
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP artyz7_bd_processing_system7_0_0, cache-ID = 7b35d8ee8d38dd42
 INFO: [Common 17-1381] The checkpoint '/home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.runs/artyz7_bd_processing_system7_0_0_synth_1/artyz7_bd_processing_system7_0_0.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file artyz7_bd_processing_system7_0_0_utilization_synth.rpt -pb artyz7_bd_processing_system7_0_0_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Fri May 21 13:23:12 2021...
+INFO: [Common 17-206] Exiting Vivado at Wed Jun 30 18:06:46 2021...

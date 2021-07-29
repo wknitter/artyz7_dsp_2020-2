@@ -10,15 +10,14 @@
   <File Type="ROUTE-DRC-RPX" Name="artyz7_bd_wrapper_drc_routed.rpx"/>
   <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="artyz7_bd_wrapper_methodology_drc_routed.pb"/>
   <File Type="ROUTE-METHODOLOGY-DRC" Name="artyz7_bd_wrapper_methodology_drc_routed.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="artyz7_bd_wrapper_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="artyz7_bd_wrapper_postroute_physopt.dcp"/>
-  <File Type="PHYSOPT-DCP" Name="artyz7_bd_wrapper_physopt.dcp"/>
   <File Type="PLACE-IO" Name="artyz7_bd_wrapper_io_placed.rpt"/>
   <File Type="OPT-DRC" Name="artyz7_bd_wrapper_drc_opted.rpt"/>
   <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
   <File Type="BITSTR-LTX" Name="artyz7_bd_wrapper.ltx"/>
   <File Type="BITSTR-SYSDEF" Name="artyz7_bd_wrapper.sysdef"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="artyz7_bd_wrapper_postroute_physopt_bb.dcp"/>
   <File Type="BITSTR-MMI" Name="artyz7_bd_wrapper.mmi"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="artyz7_bd_wrapper_postroute_physopt.dcp"/>
   <File Type="BITSTR-BMM" Name="artyz7_bd_wrapper_bd.bmm"/>
   <File Type="PLACE-UTIL-PB" Name="artyz7_bd_wrapper_utilization_placed.pb"/>
   <File Type="BG-BGN" Name="artyz7_bd_wrapper.bgn"/>
@@ -38,9 +37,10 @@
   <File Type="PWROPT-DCP" Name="artyz7_bd_wrapper_pwropt.dcp"/>
   <File Type="BITSTR-MSK" Name="artyz7_bd_wrapper.msk"/>
   <File Type="POSTPLACE-PWROPT-DCP" Name="artyz7_bd_wrapper_postplace_pwropt.dcp"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="artyz7_bd_wrapper_incremental_reuse_pre_placed.rpt"/>
   <File Type="BITSTR-RBT" Name="artyz7_bd_wrapper.rbt"/>
   <File Type="BITSTR-NKY" Name="artyz7_bd_wrapper.nky"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="artyz7_bd_wrapper_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="artyz7_bd_wrapper_physopt.dcp"/>
   <File Type="ROUTE-DRC" Name="artyz7_bd_wrapper_drc_routed.rpt"/>
   <File Type="ROUTE-DRC-PB" Name="artyz7_bd_wrapper_drc_routed.pb"/>
   <File Type="ROUTE-PWR" Name="artyz7_bd_wrapper_power_routed.rpt"/>
@@ -112,12 +112,12 @@
     <Step Id="write_bitstream"/>
     <Step Id="write_device_image"/>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="artyz7_bd_processing_system7_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="artyz7_bd_clk_wiz_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="artyz7_bd_axi_gpio_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="artyz7_bd_rst_ps7_0_100M_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="artyz7_bd_axi_quad_spi_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="artyz7_bd_axi_gpio_1_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="artyz7_bd_axi_gpio_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="artyz7_bd_axi_gpio_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="artyz7_bd_clk_wiz_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="artyz7_bd_processing_system7_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="artyz7_bd_xbar_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="artyz7_bd_axi_gpio_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="artyz7_bd_axi_gpio_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="artyz7_bd_axi_quad_spi_0_0"/>
 </GenRun>

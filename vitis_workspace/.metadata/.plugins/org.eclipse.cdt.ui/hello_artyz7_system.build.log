@@ -1,4 +1,4 @@
-12:46:05 **** Build of configuration Debug for project hello_artyz7_system ****
+11:51:27 **** Incremental Build of configuration Debug for project hello_artyz7_system ****
 make all 
 Generating bif file for the system project
 Executing command '::scw::generate_bif -xpfm /home/parallels/artyz7_dsp_2020-2/vitis_workspace/artyz7/export/artyz7/artyz7.xpfm -domains standalone_domain -bifpath /home/parallels/artyz7_dsp_2020-2/vitis_workspace/hello_artyz7_system/Debug/system.bif' on XSCT
@@ -6,5 +6,5 @@ sdcard_gen --xpfm /home/parallels/artyz7_dsp_2020-2/vitis_workspace/artyz7/expor
 creating BOOT.BIN using /home/parallels/artyz7_dsp_2020-2/vitis_workspace/hello_artyz7/_ide/bitstream/artyz7_bd_wrapper.bit
 Running /tools/Xilinx/Vitis/2020.2/bin/bootgen  -image /home/parallels/artyz7_dsp_2020-2/vitis_workspace/hello_artyz7_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
 
-12:46:11 Build Finished (took 6s.386ms)
+11:51:34 Build Finished (took 6s.173ms)
 

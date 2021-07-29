@@ -1,0 +1,8 @@
+TRACE::2021-07-13.17:02:25::SCWLinux::Copying the qemu file from  /tools/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_linux/qemu/qemu_args.txt To /home/parallels/artyz7_dsp_2020-2/vitis_workspace/artyz7/export/artyz7/sw/artyz7/qemu/
+TRACE::2021-07-13.17:02:25::SCWLinux::Copying the qemu file from  /tools/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_linux/qemu/qemu_args.txt To /home/parallels/artyz7_dsp_2020-2/vitis_workspace/artyz7/export/artyz7/sw/artyz7/linux/qemu/
+TRACE::2021-07-13.17:02:25::SCWLinux:: Copying the user libraries. 
+TRACE::2021-07-13.17:02:25::SCWLinux::Skipping the Petalinux build as image is already given.
+TRACE::2021-07-14.19:00:57::SCWLinux::Copying the qemu file from  /tools/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_linux/qemu/qemu_args.txt To /home/parallels/artyz7_dsp_2020-2/vitis_workspace/artyz7/export/artyz7/sw/artyz7/qemu/
+TRACE::2021-07-14.19:00:57::SCWLinux::Copying the qemu file from  /tools/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_linux/qemu/qemu_args.txt To /home/parallels/artyz7_dsp_2020-2/vitis_workspace/artyz7/export/artyz7/sw/artyz7/linux/qemu/
+TRACE::2021-07-14.19:00:57::SCWLinux:: Copying the user libraries. 
+TRACE::2021-07-14.19:00:57::SCWLinux::Skipping the Petalinux build as image is already given.

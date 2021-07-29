@@ -1,33 +1,23 @@
 Nothing to build in platform 'artyz7'
 
-12:46:05 **** Build of configuration Debug for project hello_artyz7 ****
+11:51:17 **** Incremental Build of configuration Debug for project dmatest ****
+make all 
+make: Nothing to be done for 'all'.
+11:51:17 **** Incremental Build of configuration Debug for project dmatest_system ****
+make all 
+Generating bif file for the system project
+Executing command '::scw::generate_bif -xpfm /home/parallels/artyz7_dsp_2020-2/vitis_workspace/artyz7/export/artyz7/artyz7.xpfm -domains linux -bifpath /home/parallels/artyz7_dsp_2020-2/vitis_workspace/dmatest_system/Debug/system.bif' on XSCT
+sdcard_gen --xpfm /home/parallels/artyz7_dsp_2020-2/vitis_workspace/artyz7/export/artyz7/artyz7.xpfm --sys_config artyz7 --bif /home/parallels/artyz7_dsp_2020-2/vitis_workspace/dmatest_system/Debug/system.bif --bitstream /home/parallels/artyz7_dsp_2020-2/vitis_workspace/dmatest/_ide/bitstream/artyz7_bd_wrapper.bit --sd_file /home/parallels/artyz7_dsp_2020-2/vitis_workspace/dmatest/Debug/dmatest.elf
+creating BOOT.BIN using /home/parallels/artyz7_dsp_2020-2/vitis_workspace/dmatest/_ide/bitstream/artyz7_bd_wrapper.bit
+Running /tools/Xilinx/Vitis/2020.2/bin/bootgen  -image /home/parallels/artyz7_dsp_2020-2/vitis_workspace/dmatest_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+11:51:27 **** Incremental Build of configuration Debug for project hello_artyz7 ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
  
 make --no-print-directory main-build
-Building file: ../src/helloworld.c
-Invoking: ARM v7 gcc compiler
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/parallels/artyz7_dsp_2020-2/vitis_workspace/artyz7/export/artyz7/sw/artyz7/standalone_domain/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-Finished building: ../src/helloworld.c
- 
-Building file: ../src/platform.c
-Invoking: ARM v7 gcc compiler
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/parallels/artyz7_dsp_2020-2/vitis_workspace/artyz7/export/artyz7/sw/artyz7/standalone_domain/bspinclude/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
-Finished building: ../src/platform.c
- 
-Building target: hello_artyz7.elf
-Invoking: ARM v7 gcc linker
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L/home/parallels/artyz7_dsp_2020-2/vitis_workspace/artyz7/export/artyz7/sw/artyz7/standalone_domain/bsplib/lib -o "hello_artyz7.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: hello_artyz7.elf
- 
-Invoking: ARM v7 Print Size
-arm-none-eabi-size hello_artyz7.elf  |tee "hello_artyz7.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  19064	   1144	  22568	  42776	   a718	hello_artyz7.elf
-Finished building: hello_artyz7.elf.size
- 
-12:46:05 **** Build of configuration Debug for project hello_artyz7_system ****
+make[1]: Nothing to be done for 'main-build'.
+11:51:27 **** Incremental Build of configuration Debug for project hello_artyz7_system ****
 make all 
 Generating bif file for the system project
 Executing command '::scw::generate_bif -xpfm /home/parallels/artyz7_dsp_2020-2/vitis_workspace/artyz7/export/artyz7/artyz7.xpfm -domains standalone_domain -bifpath /home/parallels/artyz7_dsp_2020-2/vitis_workspace/hello_artyz7_system/Debug/system.bif' on XSCT

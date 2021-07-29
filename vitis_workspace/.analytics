@@ -12,3 +12,81 @@ timestamp=[2021-06-16 15:55:53], mode=WORKBENCH_UI_INIT, duration=0:00:01.004, d
 timestamp=[2021-06-25 07:23:19], mode=WORKBENCH_START, duration=0:00:11.045, duration_ms=11045, data={}
 timestamp=[2021-06-25 07:23:19], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.030, duration_ms=30, data={}
 timestamp=[2021-06-25 07:23:19], mode=WORKBENCH_UI_INIT, duration=0:00:00.846, duration_ms=846, data={editors_count=4, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,artyz7,hello_artyz7,hello_artyz7_system}
+timestamp=[2021-07-01 17:15:58], mode=WORKBENCH_START, duration=0:00:08.575, duration_ms=8575, data={}
+timestamp=[2021-07-01 17:15:59], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.043, duration_ms=43, data={}
+timestamp=[2021-07-01 17:15:59], mode=WORKBENCH_UI_INIT, duration=0:00:00.922, duration_ms=922, data={editors_count=4, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,artyz7,hello_artyz7,hello_artyz7_system}
+timestamp=[2021-07-01 17:18:16], mode=APP_CREATION, duration=0:00:06.901, duration_ms=6901, data={name=xdmaps_example_w_intr_1, project_type=sdk, os=standalone, processor=cortex-a9, runtime=C/C++, platform=artyz7, application_type=application}
+timestamp=[2021-07-13 12:53:09], mode=WORKBENCH_START, duration=0:00:11.207, duration_ms=11207, data={}
+timestamp=[2021-07-13 12:53:10], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.040, duration_ms=40, data={}
+timestamp=[2021-07-13 12:53:10], mode=WORKBENCH_UI_INIT, duration=0:00:01.002, duration_ms=1002, data={editors_count=8, platform_editors_count=2, projects_count=6, platform_projects_count=1, active_platform_editor=true, projects=RemoteSystemsTempFiles,artyz7,hello_artyz7,hello_artyz7_system,xdmaps_example_w_intr_1,xdmaps_example_w_intr_1_system}
+timestamp=[2021-07-13 14:02:29], mode=PLATFORM_GENERATION, duration=0:00:05.882, duration_ms=5882, data={name=artyz7}
+timestamp=[2021-07-13 14:02:43], mode=BUILD, duration=0:00:00.339, duration_ms=339, data={name=hello_artyz7, configuration=Debug, clean_build=false}
+timestamp=[2021-07-13 14:02:50], mode=BUILD, duration=0:00:06.492, duration_ms=6492, data={name=hello_artyz7_system, configuration=Debug, clean_build=false}
+timestamp=[2021-07-13 14:05:34], mode=APP_CREATION, duration=0:00:00.336, duration_ms=336, data={name=dmatest, project_type=sdk, os=linux, processor=cortex-a9, runtime=C/C++, platform=artyz7, application_type=application}
+timestamp=[2021-07-13 14:07:02], mode=BUILD, duration=0:00:00.322, duration_ms=322, data={name=dmatest, configuration=Debug, clean_build=false}
+timestamp=[2021-07-13 14:07:09], mode=BUILD, duration=0:00:06.568, duration_ms=6568, data={name=dmatest_system, configuration=Debug, clean_build=false}
+timestamp=[2021-07-13 14:07:09], mode=BUILD, duration=0:00:00.086, duration_ms=86, data={name=hello_artyz7, configuration=Debug, clean_build=false}
+timestamp=[2021-07-13 14:07:16], mode=BUILD, duration=0:00:06.477, duration_ms=6477, data={name=hello_artyz7_system, configuration=Debug, clean_build=false}
+timestamp=[2021-07-13 14:08:05], mode=BUILD, duration=0:00:00.228, duration_ms=228, data={name=dmatest, configuration=Debug, clean_build=false}
+timestamp=[2021-07-13 14:08:12], mode=BUILD, duration=0:00:06.527, duration_ms=6527, data={name=dmatest_system, configuration=Debug, clean_build=false}
+timestamp=[2021-07-13 14:08:12], mode=BUILD, duration=0:00:00.074, duration_ms=74, data={name=hello_artyz7, configuration=Debug, clean_build=false}
+timestamp=[2021-07-13 14:08:19], mode=BUILD, duration=0:00:06.521, duration_ms=6521, data={name=hello_artyz7_system, configuration=Debug, clean_build=false}
+timestamp=[2021-07-14 10:59:09], mode=WORKBENCH_START, duration=0:00:10.932, duration_ms=10932, data={}
+timestamp=[2021-07-14 10:59:10], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.050, duration_ms=50, data={}
+timestamp=[2021-07-14 10:59:10], mode=WORKBENCH_UI_INIT, duration=0:00:00.945, duration_ms=945, data={editors_count=4, platform_editors_count=1, projects_count=6, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,artyz7,dmatest,dmatest_system,hello_artyz7,hello_artyz7_system}
+timestamp=[2021-07-14 12:13:34], mode=WORKBENCH_START, duration=0:00:07.588, duration_ms=7588, data={}
+timestamp=[2021-07-14 12:13:35], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.030, duration_ms=30, data={}
+timestamp=[2021-07-14 12:13:36], mode=WORKBENCH_UI_INIT, duration=0:00:01.177, duration_ms=1177, data={editors_count=2, platform_editors_count=1, projects_count=6, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,artyz7,dmatest,dmatest_system,hello_artyz7,hello_artyz7_system}
+timestamp=[2021-07-14 16:01:00], mode=PLATFORM_GENERATION, duration=0:00:05.990, duration_ms=5990, data={name=artyz7}
+timestamp=[2021-07-14 16:01:01], mode=BUILD, duration=0:00:00.389, duration_ms=389, data={name=dmatest, configuration=Debug, clean_build=false}
+timestamp=[2021-07-14 16:01:07], mode=BUILD, duration=0:00:06.656, duration_ms=6656, data={name=dmatest_system, configuration=Debug, clean_build=false}
+timestamp=[2021-07-14 16:01:09], mode=BUILD, duration=0:00:00.329, duration_ms=329, data={name=hello_artyz7, configuration=Debug, clean_build=false}
+timestamp=[2021-07-14 16:01:16], mode=BUILD, duration=0:00:06.321, duration_ms=6321, data={name=hello_artyz7_system, configuration=Debug, clean_build=false}
+timestamp=[2021-07-14 16:04:55], mode=BUILD, duration=0:00:00.229, duration_ms=229, data={name=dmatest, configuration=Debug, clean_build=false}
+timestamp=[2021-07-14 16:05:02], mode=BUILD, duration=0:00:06.522, duration_ms=6522, data={name=dmatest_system, configuration=Debug, clean_build=false}
+timestamp=[2021-07-14 16:05:02], mode=BUILD, duration=0:00:00.073, duration_ms=73, data={name=hello_artyz7, configuration=Debug, clean_build=false}
+timestamp=[2021-07-14 16:05:09], mode=BUILD, duration=0:00:06.588, duration_ms=6588, data={name=hello_artyz7_system, configuration=Debug, clean_build=false}
+timestamp=[2021-07-14 16:06:16], mode=BUILD, duration=0:00:00.123, duration_ms=123, data={name=dmatest, configuration=Debug, clean_build=false}
+timestamp=[2021-07-14 16:06:21], mode=BUILD, duration=0:00:05.207, duration_ms=5207, data={name=dmatest_system, configuration=Debug, clean_build=false}
+timestamp=[2021-07-14 16:06:22], mode=BUILD, duration=0:00:00.072, duration_ms=72, data={name=hello_artyz7, configuration=Debug, clean_build=false}
+timestamp=[2021-07-14 16:06:28], mode=BUILD, duration=0:00:06.430, duration_ms=6430, data={name=hello_artyz7_system, configuration=Debug, clean_build=false}
+timestamp=[2021-07-14 16:06:36], mode=BUILD, duration=0:00:00.222, duration_ms=222, data={name=dmatest, configuration=Debug, clean_build=false}
+timestamp=[2021-07-14 16:06:42], mode=BUILD, duration=0:00:06.365, duration_ms=6365, data={name=dmatest_system, configuration=Debug, clean_build=false}
+timestamp=[2021-07-14 16:06:43], mode=BUILD, duration=0:00:00.072, duration_ms=72, data={name=hello_artyz7, configuration=Debug, clean_build=false}
+timestamp=[2021-07-14 16:06:49], mode=BUILD, duration=0:00:06.407, duration_ms=6407, data={name=hello_artyz7_system, configuration=Debug, clean_build=false}
+timestamp=[2021-07-14 16:07:15], mode=BUILD, duration=0:00:00.222, duration_ms=222, data={name=dmatest, configuration=Debug, clean_build=false}
+timestamp=[2021-07-14 16:07:21], mode=BUILD, duration=0:00:06.468, duration_ms=6468, data={name=dmatest_system, configuration=Debug, clean_build=false}
+timestamp=[2021-07-14 16:07:21], mode=BUILD, duration=0:00:00.073, duration_ms=73, data={name=hello_artyz7, configuration=Debug, clean_build=false}
+timestamp=[2021-07-14 16:07:28], mode=BUILD, duration=0:00:06.423, duration_ms=6423, data={name=hello_artyz7_system, configuration=Debug, clean_build=false}
+timestamp=[2021-07-14 16:28:42], mode=BUILD, duration=0:00:00.222, duration_ms=222, data={name=dmatest, configuration=Debug, clean_build=false}
+timestamp=[2021-07-14 16:28:49], mode=BUILD, duration=0:00:06.474, duration_ms=6474, data={name=dmatest_system, configuration=Debug, clean_build=false}
+timestamp=[2021-07-14 16:28:49], mode=BUILD, duration=0:00:00.073, duration_ms=73, data={name=hello_artyz7, configuration=Debug, clean_build=false}
+timestamp=[2021-07-14 16:28:55], mode=BUILD, duration=0:00:06.291, duration_ms=6291, data={name=hello_artyz7_system, configuration=Debug, clean_build=false}
+timestamp=[2021-07-14 17:34:39], mode=BUILD, duration=0:00:00.229, duration_ms=229, data={name=dmatest, configuration=Debug, clean_build=false}
+timestamp=[2021-07-14 17:34:46], mode=BUILD, duration=0:00:06.424, duration_ms=6424, data={name=dmatest_system, configuration=Debug, clean_build=false}
+timestamp=[2021-07-14 17:34:46], mode=BUILD, duration=0:00:00.074, duration_ms=74, data={name=hello_artyz7, configuration=Debug, clean_build=false}
+timestamp=[2021-07-14 17:34:52], mode=BUILD, duration=0:00:06.493, duration_ms=6493, data={name=hello_artyz7_system, configuration=Debug, clean_build=false}
+timestamp=[2021-07-14 17:37:34], mode=BUILD, duration=0:00:00.235, duration_ms=235, data={name=dmatest, configuration=Debug, clean_build=false}
+timestamp=[2021-07-14 17:37:41], mode=BUILD, duration=0:00:06.587, duration_ms=6587, data={name=dmatest_system, configuration=Debug, clean_build=false}
+timestamp=[2021-07-14 17:37:41], mode=BUILD, duration=0:00:00.072, duration_ms=72, data={name=hello_artyz7, configuration=Debug, clean_build=false}
+timestamp=[2021-07-14 17:37:48], mode=BUILD, duration=0:00:06.572, duration_ms=6572, data={name=hello_artyz7_system, configuration=Debug, clean_build=false}
+timestamp=[2021-07-14 17:38:39], mode=BUILD, duration=0:00:00.223, duration_ms=223, data={name=dmatest, configuration=Debug, clean_build=false}
+timestamp=[2021-07-14 17:38:45], mode=BUILD, duration=0:00:06.440, duration_ms=6440, data={name=dmatest_system, configuration=Debug, clean_build=false}
+timestamp=[2021-07-14 17:38:45], mode=BUILD, duration=0:00:00.074, duration_ms=74, data={name=hello_artyz7, configuration=Debug, clean_build=false}
+timestamp=[2021-07-14 17:38:52], mode=BUILD, duration=0:00:06.318, duration_ms=6318, data={name=hello_artyz7_system, configuration=Debug, clean_build=false}
+timestamp=[2021-07-15 11:51:02], mode=WORKBENCH_START, duration=0:00:10.567, duration_ms=10567, data={}
+timestamp=[2021-07-15 11:51:02], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.037, duration_ms=37, data={}
+timestamp=[2021-07-15 11:51:03], mode=WORKBENCH_UI_INIT, duration=0:00:00.727, duration_ms=727, data={editors_count=2, platform_editors_count=1, projects_count=6, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,artyz7,dmatest,dmatest_system,hello_artyz7,hello_artyz7_system}
+timestamp=[2021-07-15 11:51:17], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=dmatest, configuration=Debug, clean_build=false}
+timestamp=[2021-07-15 11:51:27], mode=BUILD, duration=0:00:10.058, duration_ms=10058, data={name=dmatest_system, configuration=Debug, clean_build=false}
+timestamp=[2021-07-15 11:51:27], mode=BUILD, duration=0:00:00.083, duration_ms=83, data={name=hello_artyz7, configuration=Debug, clean_build=false}
+timestamp=[2021-07-15 11:51:34], mode=BUILD, duration=0:00:06.181, duration_ms=6181, data={name=hello_artyz7_system, configuration=Debug, clean_build=false}
+timestamp=[2021-07-20 10:12:05], mode=WORKBENCH_START, duration=0:00:11.963, duration_ms=11963, data={}
+timestamp=[2021-07-20 10:12:05], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.050, duration_ms=50, data={}
+timestamp=[2021-07-20 10:12:06], mode=WORKBENCH_UI_INIT, duration=0:00:01.101, duration_ms=1101, data={editors_count=2, platform_editors_count=1, projects_count=6, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,artyz7,dmatest,dmatest_system,hello_artyz7,hello_artyz7_system}
+timestamp=[2021-07-21 13:42:17], mode=WORKBENCH_START, duration=0:00:10.433, duration_ms=10433, data={}
+timestamp=[2021-07-21 13:42:17], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.032, duration_ms=32, data={}
+timestamp=[2021-07-21 13:42:18], mode=WORKBENCH_UI_INIT, duration=0:00:00.835, duration_ms=835, data={editors_count=2, platform_editors_count=1, projects_count=6, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,artyz7,dmatest,dmatest_system,hello_artyz7,hello_artyz7_system}
+timestamp=[2021-07-28 11:28:32], mode=WORKBENCH_START, duration=0:00:10.128, duration_ms=10128, data={}
+timestamp=[2021-07-28 11:28:32], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.050, duration_ms=50, data={}
+timestamp=[2021-07-28 11:28:32], mode=WORKBENCH_UI_INIT, duration=0:00:00.848, duration_ms=848, data={editors_count=2, platform_editors_count=1, projects_count=6, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,artyz7,dmatest,dmatest_system,hello_artyz7,hello_artyz7_system}

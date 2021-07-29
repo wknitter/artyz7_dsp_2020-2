@@ -16,9 +16,6 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==artyz7_bd_a
 # IP: bd/artyz7_bd/ip/artyz7_bd_xbar_0/artyz7_bd_xbar_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==artyz7_bd_xbar_0 || ORIG_REF_NAME==artyz7_bd_xbar_0} -quiet] -quiet
 
-# IP: bd/artyz7_bd/ip/artyz7_bd_auto_pc_0/artyz7_bd_auto_pc_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==artyz7_bd_auto_pc_0 || ORIG_REF_NAME==artyz7_bd_auto_pc_0} -quiet] -quiet
-
 # IP: bd/artyz7_bd/ip/artyz7_bd_ps7_0_axi_periph_0/artyz7_bd_ps7_0_axi_periph_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==artyz7_bd_ps7_0_axi_periph_0 || ORIG_REF_NAME==artyz7_bd_ps7_0_axi_periph_0} -quiet] -quiet
 
@@ -36,5 +33,32 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==artyz7_bd_a
 
 # IP: bd/artyz7_bd/ip/artyz7_bd_xlconcat_0_0/artyz7_bd_xlconcat_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==artyz7_bd_xlconcat_0_0 || ORIG_REF_NAME==artyz7_bd_xlconcat_0_0} -quiet] -quiet
+
+# IP: bd/artyz7_bd/ip/artyz7_bd_axi_dma_0_0/artyz7_bd_axi_dma_0_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==artyz7_bd_axi_dma_0_0 || ORIG_REF_NAME==artyz7_bd_axi_dma_0_0} -quiet] -quiet
+
+# IP: bd/artyz7_bd/ip/artyz7_bd_xbar_1/artyz7_bd_xbar_1.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==artyz7_bd_xbar_1 || ORIG_REF_NAME==artyz7_bd_xbar_1} -quiet] -quiet
+
+# IP: bd/artyz7_bd/ip/artyz7_bd_axi_mem_intercon_0/artyz7_bd_axi_mem_intercon_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==artyz7_bd_axi_mem_intercon_0 || ORIG_REF_NAME==artyz7_bd_axi_mem_intercon_0} -quiet] -quiet
+
+# IP: bd/artyz7_bd/ip/artyz7_bd_axis_data_fifo_0_0/artyz7_bd_axis_data_fifo_0_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==artyz7_bd_axis_data_fifo_0_0 || ORIG_REF_NAME==artyz7_bd_axis_data_fifo_0_0} -quiet] -quiet
+
+# IP: bd/artyz7_bd/ip/artyz7_bd_auto_pc_0/artyz7_bd_auto_pc_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==artyz7_bd_auto_pc_0 || ORIG_REF_NAME==artyz7_bd_auto_pc_0} -quiet] -quiet
+
+# IP: bd/artyz7_bd/ip/artyz7_bd_auto_us_0/artyz7_bd_auto_us_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==artyz7_bd_auto_us_0 || ORIG_REF_NAME==artyz7_bd_auto_us_0} -quiet] -quiet
+
+# IP: bd/artyz7_bd/ip/artyz7_bd_auto_us_1/artyz7_bd_auto_us_1.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==artyz7_bd_auto_us_1 || ORIG_REF_NAME==artyz7_bd_auto_us_1} -quiet] -quiet
+
+# IP: bd/artyz7_bd/ip/artyz7_bd_auto_pc_1/artyz7_bd_auto_pc_1.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==artyz7_bd_auto_pc_1 || ORIG_REF_NAME==artyz7_bd_auto_pc_1} -quiet] -quiet
+
+# IP: bd/artyz7_bd/ip/artyz7_bd_system_ila_0_0/artyz7_bd_system_ila_0_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==artyz7_bd_system_ila_0_0 || ORIG_REF_NAME==artyz7_bd_system_ila_0_0} -quiet] -quiet
 
 # XDC: /home/parallels/artyz7_dsp_2020-2/artyz7_dsp_2020-2.gen/sources_1/bd/artyz7_bd/artyz7_bd_ooc.xdc

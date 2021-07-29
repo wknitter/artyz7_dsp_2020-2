@@ -1,7 +1,7 @@
 //Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2020.2 (lin64) Build 3064766 Wed Nov 18 09:12:47 MST 2020
-//Date        : Fri May 21 13:34:10 2021
+//Date        : Thu Jul  1 18:01:29 2021
 //Host        : parallels-Parallels-Virtual-Platform running 64-bit Ubuntu 18.04.5 LTS
 //Command     : generate_target artyz7_bd_wrapper.bd
 //Design      : artyz7_bd_wrapper

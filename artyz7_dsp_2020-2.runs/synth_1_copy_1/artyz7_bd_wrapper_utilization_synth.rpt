@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.2 (lin64) Build 3064766 Wed Nov 18 09:12:47 MST 2020
-| Date         : Fri May 21 15:31:33 2021
+| Date         : Thu Jul  1 18:04:18 2021
 | Host         : parallels-Parallels-Virtual-Platform running 64-bit Ubuntu 18.04.5 LTS
 | Command      : report_utilization -file artyz7_bd_wrapper_utilization_synth.rpt -pb artyz7_bd_wrapper_utilization_synth.pb
 | Design       : artyz7_bd_wrapper
@@ -158,14 +158,21 @@ Table of Contents
 +----------------------------------+------+
 |             Ref Name             | Used |
 +----------------------------------+------+
+| artyz7_bd_xbar_1                 |    1 |
 | artyz7_bd_xbar_0                 |    1 |
+| artyz7_bd_system_ila_0_0         |    1 |
 | artyz7_bd_rst_ps7_0_100M_0       |    1 |
 | artyz7_bd_processing_system7_0_0 |    1 |
 | artyz7_bd_clk_wiz_0_0            |    1 |
+| artyz7_bd_axis_data_fifo_0_0     |    1 |
 | artyz7_bd_axi_quad_spi_0_0       |    1 |
 | artyz7_bd_axi_gpio_2_0           |    1 |
 | artyz7_bd_axi_gpio_1_0           |    1 |
 | artyz7_bd_axi_gpio_0_0           |    1 |
+| artyz7_bd_axi_dma_0_0            |    1 |
+| artyz7_bd_auto_us_1              |    1 |
+| artyz7_bd_auto_us_0              |    1 |
+| artyz7_bd_auto_pc_1              |    1 |
 | artyz7_bd_auto_pc_0              |    1 |
 +----------------------------------+------+
 

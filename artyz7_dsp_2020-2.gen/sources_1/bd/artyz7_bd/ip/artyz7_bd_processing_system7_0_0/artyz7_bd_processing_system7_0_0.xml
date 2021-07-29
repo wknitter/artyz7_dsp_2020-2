@@ -2024,7 +2024,7 @@
       <spirit:vendorExtensions>
         <xilinx:busInterfaceInfo>
           <xilinx:enablement>
-            <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="BUSIF_ENABLEMENT.S_AXI_HP0_FIFO_CTRL" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+            <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="BUSIF_ENABLEMENT.S_AXI_HP0_FIFO_CTRL" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
           </xilinx:enablement>
         </xilinx:busInterfaceInfo>
       </spirit:vendorExtensions>
@@ -7039,7 +7039,7 @@
         </spirit:parameter>
         <spirit:parameter>
           <spirit:name>DATA_WIDTH</spirit:name>
-          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_HP0.DATA_WIDTH">32</spirit:value>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_HP0.DATA_WIDTH">64</spirit:value>
           <spirit:vendorExtensions>
             <xilinx:parameterInfo>
               <xilinx:parameterUsage>simulation.tlm</xilinx:parameterUsage>
@@ -7048,7 +7048,7 @@
         </spirit:parameter>
         <spirit:parameter>
           <spirit:name>PROTOCOL</spirit:name>
-          <spirit:value spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_HP0.PROTOCOL">AXI4</spirit:value>
+          <spirit:value spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_HP0.PROTOCOL">AXI3</spirit:value>
           <spirit:vendorExtensions>
             <xilinx:parameterInfo>
               <xilinx:parameterUsage>simulation.tlm</xilinx:parameterUsage>
@@ -7066,7 +7066,7 @@
         </spirit:parameter>
         <spirit:parameter>
           <spirit:name>ID_WIDTH</spirit:name>
-          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_HP0.ID_WIDTH">0</spirit:value>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_HP0.ID_WIDTH">6</spirit:value>
           <spirit:vendorExtensions>
             <xilinx:parameterInfo>
               <xilinx:parameterUsage>simulation.tlm</xilinx:parameterUsage>
@@ -7183,7 +7183,7 @@
         </spirit:parameter>
         <spirit:parameter>
           <spirit:name>HAS_REGION</spirit:name>
-          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_HP0.HAS_REGION">1</spirit:value>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_HP0.HAS_REGION">0</spirit:value>
           <spirit:vendorExtensions>
             <xilinx:parameterInfo>
               <xilinx:parameterUsage>simulation.tlm</xilinx:parameterUsage>
@@ -7219,7 +7219,7 @@
         </spirit:parameter>
         <spirit:parameter>
           <spirit:name>SUPPORTS_NARROW_BURST</spirit:name>
-          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_HP0.SUPPORTS_NARROW_BURST">1</spirit:value>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_HP0.SUPPORTS_NARROW_BURST">0</spirit:value>
           <spirit:vendorExtensions>
             <xilinx:parameterInfo>
               <xilinx:parameterUsage>simulation.tlm</xilinx:parameterUsage>
@@ -7228,7 +7228,7 @@
         </spirit:parameter>
         <spirit:parameter>
           <spirit:name>MAX_BURST_LENGTH</spirit:name>
-          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_HP0.MAX_BURST_LENGTH">256</spirit:value>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_HP0.MAX_BURST_LENGTH">16</spirit:value>
           <spirit:vendorExtensions>
             <xilinx:parameterInfo>
               <xilinx:parameterUsage>simulation.tlm</xilinx:parameterUsage>
@@ -7246,7 +7246,7 @@
         </spirit:parameter>
         <spirit:parameter>
           <spirit:name>CLK_DOMAIN</spirit:name>
-          <spirit:value spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_HP0.CLK_DOMAIN"/>
+          <spirit:value spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_HP0.CLK_DOMAIN">artyz7_bd_processing_system7_0_0_FCLK_CLK0</spirit:value>
           <spirit:vendorExtensions>
             <xilinx:parameterInfo>
               <xilinx:parameterUsage>simulation.tlm</xilinx:parameterUsage>
@@ -7302,7 +7302,7 @@
       <spirit:vendorExtensions>
         <xilinx:busInterfaceInfo>
           <xilinx:enablement>
-            <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="BUSIF_ENABLEMENT.S_AXI_HP0" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+            <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="BUSIF_ENABLEMENT.S_AXI_HP0" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
           </xilinx:enablement>
         </xilinx:busInterfaceInfo>
       </spirit:vendorExtensions>
@@ -10713,7 +10713,7 @@
       <spirit:parameters>
         <spirit:parameter>
           <spirit:name>SENSITIVITY</spirit:name>
-          <spirit:value spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.IRQ_F2P.SENSITIVITY">LEVEL_HIGH:EDGE_RISING</spirit:value>
+          <spirit:value spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.IRQ_F2P.SENSITIVITY">LEVEL_HIGH:LEVEL_HIGH:LEVEL_HIGH:EDGE_RISING</spirit:value>
           <spirit:vendorExtensions>
             <xilinx:parameterInfo>
               <xilinx:parameterUsage>none</xilinx:parameterUsage>
@@ -10722,7 +10722,7 @@
         </spirit:parameter>
         <spirit:parameter>
           <spirit:name>PortWidth</spirit:name>
-          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.IRQ_F2P.PortWidth">2</spirit:value>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.IRQ_F2P.PortWidth">4</spirit:value>
           <spirit:vendorExtensions>
             <xilinx:parameterInfo>
               <xilinx:parameterUsage>none</xilinx:parameterUsage>
@@ -11374,7 +11374,7 @@
         </spirit:parameter>
         <spirit:parameter>
           <spirit:name>CLK_DOMAIN</spirit:name>
-          <spirit:value spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_HP0_ACLK.CLK_DOMAIN"/>
+          <spirit:value spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXI_HP0_ACLK.CLK_DOMAIN">artyz7_bd_processing_system7_0_0_FCLK_CLK0</spirit:value>
           <spirit:vendorExtensions>
             <xilinx:parameterInfo>
               <xilinx:parameterUsage>none</xilinx:parameterUsage>
@@ -11403,7 +11403,7 @@
       <spirit:vendorExtensions>
         <xilinx:busInterfaceInfo>
           <xilinx:enablement>
-            <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="BUSIF_ENABLEMENT.S_AXI_HP0_ACLK" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+            <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="BUSIF_ENABLEMENT.S_AXI_HP0_ACLK" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
           </xilinx:enablement>
         </xilinx:busInterfaceInfo>
       </spirit:vendorExtensions>
@@ -12931,7 +12931,7 @@
       <spirit:vendorExtensions>
         <xilinx:memoryMapInfo>
           <xilinx:enablement>
-            <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="MEMMAP_ENABLEMENT.S_AXI_HP0" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1) ">false</xilinx:isEnabled>
+            <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="MEMMAP_ENABLEMENT.S_AXI_HP0" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1) ">true</xilinx:isEnabled>
           </xilinx:enablement>
         </xilinx:memoryMapInfo>
       </spirit:vendorExtensions>
@@ -15035,11 +15035,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri May 21 17:22:06 UTC 2021</spirit:value>
+            <spirit:value>Wed Jun 30 23:05:39 UTC 2021</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:a45be971</spirit:value>
+            <spirit:value>9:c9aea8a5</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -15050,7 +15050,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:a45be971</spirit:value>
+            <spirit:value>9:c9aea8a5</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -15066,11 +15066,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri May 21 17:22:06 UTC 2021</spirit:value>
+            <spirit:value>Wed Jun 30 23:05:39 UTC 2021</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:a45be971</spirit:value>
+            <spirit:value>9:c9aea8a5</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -15091,7 +15091,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:38892145</spirit:value>
+            <spirit:value>9:04ce26bf</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -15107,11 +15107,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri May 21 17:22:07 UTC 2021</spirit:value>
+            <spirit:value>Wed Jun 30 23:05:40 UTC 2021</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:063fabea</spirit:value>
+            <spirit:value>9:2b66ebff</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>sim_type</spirit:name>
@@ -15130,11 +15130,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri May 21 17:22:07 UTC 2021</spirit:value>
+            <spirit:value>Wed Jun 30 23:05:40 UTC 2021</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:a3ed0bbd</spirit:value>
+            <spirit:value>9:3c9296ee</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>sim_type</spirit:name>
@@ -15157,11 +15157,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri May 21 17:22:07 UTC 2021</spirit:value>
+            <spirit:value>Wed Jun 30 23:05:40 UTC 2021</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:38892145</spirit:value>
+            <spirit:value>9:04ce26bf</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -15177,11 +15177,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri May 21 17:22:07 UTC 2021</spirit:value>
+            <spirit:value>Wed Jun 30 23:05:40 UTC 2021</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:063fabea</spirit:value>
+            <spirit:value>9:2b66ebff</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>sim_type</spirit:name>
@@ -15200,11 +15200,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri May 21 17:22:08 UTC 2021</spirit:value>
+            <spirit:value>Wed Jun 30 23:05:42 UTC 2021</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:a3ed0bbd</spirit:value>
+            <spirit:value>9:3c9296ee</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>sim_type</spirit:name>
@@ -15222,11 +15222,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri May 21 17:23:12 UTC 2021</spirit:value>
+            <spirit:value>Wed Jun 30 23:06:46 UTC 2021</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:a45be971</spirit:value>
+            <spirit:value>9:c9aea8a5</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -23682,7 +23682,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_ARREADY" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_ARREADY" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -23702,7 +23702,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_AWREADY" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_AWREADY" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -23722,7 +23722,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_BVALID" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_BVALID" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -23742,7 +23742,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_RLAST" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_RLAST" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -23762,7 +23762,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_RVALID" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_RVALID" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -23782,7 +23782,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_WREADY" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_WREADY" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -23806,7 +23806,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_BRESP" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_BRESP" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -23830,7 +23830,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_RRESP" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_RRESP" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -23854,7 +23854,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_BID" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_BID" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -23878,7 +23878,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_RID" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_RID" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -23902,7 +23902,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_RDATA" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_RDATA" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -23926,7 +23926,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_RCOUNT" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_RCOUNT" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -23950,7 +23950,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_WCOUNT" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_WCOUNT" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -23974,7 +23974,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_RACOUNT" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_RACOUNT" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -23998,7 +23998,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_WACOUNT" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_WACOUNT" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -24021,7 +24021,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_ACLK" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_ACLK" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -24044,7 +24044,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_ARVALID" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_ARVALID" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -24067,7 +24067,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_AWVALID" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_AWVALID" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -24090,7 +24090,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_BREADY" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_BREADY" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -24113,7 +24113,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_RDISSUECAP1_EN" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_RDISSUECAP1_EN" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -24136,7 +24136,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_RREADY" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_RREADY" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -24159,7 +24159,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_WLAST" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_WLAST" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -24182,7 +24182,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_WRISSUECAP1_EN" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_WRISSUECAP1_EN" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -24205,7 +24205,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_WVALID" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_WVALID" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -24232,7 +24232,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_ARBURST" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_ARBURST" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -24259,7 +24259,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_ARLOCK" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_ARLOCK" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -24286,7 +24286,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_ARSIZE" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_ARSIZE" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -24313,7 +24313,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_AWBURST" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_AWBURST" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -24340,7 +24340,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_AWLOCK" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_AWLOCK" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -24367,7 +24367,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_AWSIZE" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_AWSIZE" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -24394,7 +24394,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_ARPROT" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_ARPROT" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -24421,7 +24421,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_AWPROT" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_AWPROT" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -24448,7 +24448,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_ARADDR" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_ARADDR" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -24475,7 +24475,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_AWADDR" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_AWADDR" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -24502,7 +24502,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_ARCACHE" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_ARCACHE" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -24529,7 +24529,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_ARLEN" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_ARLEN" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -24556,7 +24556,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_ARQOS" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_ARQOS" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -24583,7 +24583,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_AWCACHE" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_AWCACHE" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -24610,7 +24610,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_AWLEN" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_AWLEN" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -24637,7 +24637,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_AWQOS" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_AWQOS" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -24664,7 +24664,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_ARID" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_ARID" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -24691,7 +24691,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_AWID" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_AWID" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -24718,7 +24718,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_WID" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_WID" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -24745,7 +24745,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_WDATA" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_WDATA" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -24772,7 +24772,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_WSTRB" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">false</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.S_AXI_HP0_WSTRB" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1)">true</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -28692,7 +28692,7 @@
         <spirit:wire>
           <spirit:direction>in</spirit:direction>
           <spirit:vector>
-            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(MODELPARAM_VALUE.C_NUM_F2P_INTR_INPUTS)) - 1)" spirit:bitStringLength="0">1</spirit:left>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(MODELPARAM_VALUE.C_NUM_F2P_INTR_INPUTS)) - 1)" spirit:bitStringLength="0">3</spirit:left>
             <spirit:right spirit:format="long" spirit:bitStringLength="0">0</spirit:right>
           </spirit:vector>
           <spirit:wireTypeDefs>
@@ -31913,7 +31913,7 @@
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="INTEGER">
         <spirit:name>C_NUM_F2P_INTR_INPUTS</spirit:name>
-        <spirit:value spirit:format="long" spirit:resolve="dependent" spirit:id="MODELPARAM_VALUE.C_NUM_F2P_INTR_INPUTS" spirit:dependency="spirit:decode(id(PARAM_VALUE.PCW_NUM_F2P_INTR_INPUTS))">2</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="dependent" spirit:id="MODELPARAM_VALUE.C_NUM_F2P_INTR_INPUTS" spirit:dependency="spirit:decode(id(PARAM_VALUE.PCW_NUM_F2P_INTR_INPUTS))">4</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="STRING">
         <spirit:name>C_IRQ_F2P_MODE</spirit:name>
@@ -31961,7 +31961,7 @@
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="INTEGER">
         <spirit:name>C_USE_S_AXI_HP0</spirit:name>
-        <spirit:value spirit:format="long" spirit:resolve="dependent" spirit:id="MODELPARAM_VALUE.C_USE_S_AXI_HP0" spirit:dependency="spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0))">0</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="dependent" spirit:id="MODELPARAM_VALUE.C_USE_S_AXI_HP0" spirit:dependency="spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0))">1</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="INTEGER">
         <spirit:name>C_USE_S_AXI_HP1</spirit:name>
@@ -35501,7 +35501,7 @@
     <spirit:parameter>
       <spirit:name>PCW_USE_S_AXI_HP0</spirit:name>
       <spirit:displayName>PCW USE S AXI HP0</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.PCW_USE_S_AXI_HP0" spirit:choiceRef="choice_list_8af5a703" spirit:order="46100">0</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.PCW_USE_S_AXI_HP0" spirit:choiceRef="choice_list_8af5a703" spirit:order="46100">1</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>PCW_USE_S_AXI_HP1</spirit:name>
@@ -35585,7 +35585,7 @@
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
-            <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PARAM_ENABLEMENT.PCW_S_AXI_HP0_FREQMHZ" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1) ">false</xilinx:isEnabled>
+            <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PARAM_ENABLEMENT.PCW_S_AXI_HP0_FREQMHZ" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1) ">true</xilinx:isEnabled>
           </xilinx:enablement>
         </xilinx:parameterInfo>
       </spirit:vendorExtensions>
@@ -36117,7 +36117,7 @@
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
-            <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PARAM_ENABLEMENT.PCW_S_AXI_HP0_ID_WIDTH" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1) ">false</xilinx:isEnabled>
+            <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PARAM_ENABLEMENT.PCW_S_AXI_HP0_ID_WIDTH" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1) ">true</xilinx:isEnabled>
           </xilinx:enablement>
         </xilinx:parameterInfo>
       </spirit:vendorExtensions>
@@ -36129,7 +36129,7 @@
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
-            <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PARAM_ENABLEMENT.PCW_S_AXI_HP0_DATA_WIDTH" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1) ">false</xilinx:isEnabled>
+            <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PARAM_ENABLEMENT.PCW_S_AXI_HP0_DATA_WIDTH" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP0)) = 1) ">true</xilinx:isEnabled>
           </xilinx:enablement>
         </xilinx:parameterInfo>
       </spirit:vendorExtensions>
@@ -36153,7 +36153,7 @@
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
-            <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PARAM_ENABLEMENT.PCW_S_AXI_HP1_DATA_WIDTH" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP1)) = 1) ">false</xilinx:isEnabled>
+            <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PARAM_ENABLEMENT.PCW_S_AXI_HP1_DATA_WIDTH" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP1)) = 1) ">true</xilinx:isEnabled>
           </xilinx:enablement>
         </xilinx:parameterInfo>
       </spirit:vendorExtensions>
@@ -36177,7 +36177,7 @@
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
-            <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PARAM_ENABLEMENT.PCW_S_AXI_HP2_DATA_WIDTH" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP2)) = 1) ">false</xilinx:isEnabled>
+            <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PARAM_ENABLEMENT.PCW_S_AXI_HP2_DATA_WIDTH" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP2)) = 1) ">true</xilinx:isEnabled>
           </xilinx:enablement>
         </xilinx:parameterInfo>
       </spirit:vendorExtensions>
@@ -36201,7 +36201,7 @@
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
-            <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PARAM_ENABLEMENT.PCW_S_AXI_HP3_DATA_WIDTH" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP3)) = 1) ">false</xilinx:isEnabled>
+            <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PARAM_ENABLEMENT.PCW_S_AXI_HP3_DATA_WIDTH" xilinx:dependency="(spirit:decode(id(PARAM_VALUE.PCW_USE_S_AXI_HP3)) = 1) ">true</xilinx:isEnabled>
           </xilinx:enablement>
         </xilinx:parameterInfo>
       </spirit:vendorExtensions>
@@ -36209,7 +36209,7 @@
     <spirit:parameter>
       <spirit:name>PCW_NUM_F2P_INTR_INPUTS</spirit:name>
       <spirit:displayName>PCW NUM F2P INTR INPUTS</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.PCW_NUM_F2P_INTR_INPUTS" spirit:order="62500" spirit:minimum="1" spirit:maximum="16" spirit:rangeType="long">2</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.PCW_NUM_F2P_INTR_INPUTS" spirit:order="62500" spirit:minimum="1" spirit:maximum="16" spirit:rangeType="long">4</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -36934,7 +36934,7 @@
     <spirit:parameter>
       <spirit:name>PCW_PERIPHERAL_BOARD_PRESET</spirit:name>
       <spirit:displayName>PCW PERIPHERAL BOARD PRESET</spirit:displayName>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.PCW_PERIPHERAL_BOARD_PRESET" spirit:order="16">None</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.PCW_PERIPHERAL_BOARD_PRESET" spirit:order="16">part0</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>PCW_PRESET_BANK0_VOLTAGE</spirit:name>
@@ -40531,6 +40531,36 @@
         <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DDR.MEM_ADDR_MAP" xilinx:valuePermission="bd"/>
         <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DDR.SLOT" xilinx:valuePermission="bd"/>
         <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DDR.TIMEPERIOD_PS" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DMA0_ACK.CLK_DOMAIN" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DMA0_ACK.FREQ_HZ" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DMA0_ACK.HAS_TKEEP" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DMA0_ACK.HAS_TLAST" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DMA0_ACK.HAS_TREADY" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DMA0_ACK.HAS_TSTRB" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DMA0_ACK.LAYERED_METADATA" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DMA0_ACK.PHASE" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DMA0_ACK.TDATA_NUM_BYTES" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DMA0_ACK.TDEST_WIDTH" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DMA0_ACK.TID_WIDTH" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DMA0_ACK.TUSER_WIDTH" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DMA0_ACLK.ASSOCIATED_BUSIF" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DMA0_ACLK.ASSOCIATED_RESET" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DMA0_ACLK.CLK_DOMAIN" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DMA0_ACLK.FREQ_HZ" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DMA0_ACLK.FREQ_TOLERANCE_HZ" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DMA0_ACLK.PHASE" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DMA0_REQ.CLK_DOMAIN" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DMA0_REQ.FREQ_HZ" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DMA0_REQ.HAS_TKEEP" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DMA0_REQ.HAS_TLAST" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DMA0_REQ.HAS_TREADY" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DMA0_REQ.HAS_TSTRB" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DMA0_REQ.LAYERED_METADATA" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DMA0_REQ.PHASE" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DMA0_REQ.TDATA_NUM_BYTES" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DMA0_REQ.TDEST_WIDTH" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DMA0_REQ.TID_WIDTH" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.DMA0_REQ.TUSER_WIDTH" xilinx:valuePermission="bd"/>
         <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.FCLK_CLK0.ASSOCIATED_BUSIF" xilinx:valuePermission="bd"/>
         <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.FCLK_CLK0.ASSOCIATED_RESET" xilinx:valuePermission="bd"/>
         <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.FCLK_CLK0.CLK_DOMAIN" xilinx:valuePermission="bd"/>
@@ -40577,6 +40607,42 @@
         <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.M_AXI_GP0_ACLK.FREQ_HZ" xilinx:valueSource="user_prop" xilinx:valuePermission="bd"/>
         <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.M_AXI_GP0_ACLK.FREQ_TOLERANCE_HZ" xilinx:valuePermission="bd"/>
         <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.M_AXI_GP0_ACLK.PHASE" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0.ADDR_WIDTH" xilinx:valueSource="auto" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0.ARUSER_WIDTH" xilinx:valueSource="constant" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0.AWUSER_WIDTH" xilinx:valueSource="constant" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0.BUSER_WIDTH" xilinx:valueSource="constant" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0.CLK_DOMAIN" xilinx:valueSource="default_prop" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0.DATA_WIDTH" xilinx:valueSource="auto" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0.FREQ_HZ" xilinx:valueSource="user_prop" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0.HAS_BRESP" xilinx:valueSource="constant_prop" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0.HAS_BURST" xilinx:valueSource="propagated" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0.HAS_CACHE" xilinx:valueSource="constant_prop" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0.HAS_LOCK" xilinx:valueSource="propagated" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0.HAS_PROT" xilinx:valueSource="constant_prop" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0.HAS_QOS" xilinx:valueSource="propagated" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0.HAS_REGION" xilinx:valueSource="constant" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0.HAS_RRESP" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0.HAS_WSTRB" xilinx:valueSource="constant_prop" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0.ID_WIDTH" xilinx:valueSource="propagated" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0.MAX_BURST_LENGTH" xilinx:valueSource="ip_propagated" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0.NUM_READ_OUTSTANDING" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0.NUM_READ_THREADS" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0.NUM_WRITE_OUTSTANDING" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0.NUM_WRITE_THREADS" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0.PHASE" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0.PROTOCOL" xilinx:valueSource="auto" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0.READ_WRITE_MODE" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0.RUSER_BITS_PER_BYTE" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0.RUSER_WIDTH" xilinx:valueSource="constant" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0.SUPPORTS_NARROW_BURST" xilinx:valueSource="ip_propagated" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0.WUSER_BITS_PER_BYTE" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0.WUSER_WIDTH" xilinx:valueSource="constant" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0_ACLK.ASSOCIATED_BUSIF" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0_ACLK.ASSOCIATED_RESET" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0_ACLK.CLK_DOMAIN" xilinx:valueSource="default_prop" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0_ACLK.FREQ_HZ" xilinx:valueSource="user_prop" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0_ACLK.FREQ_TOLERANCE_HZ" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI_HP0_ACLK.PHASE" xilinx:valuePermission="bd"/>
         <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.PCW_ACT_APU_PERIPHERAL_FREQMHZ" xilinx:valueSource="user"/>
         <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.PCW_ACT_CAN0_PERIPHERAL_FREQMHZ" xilinx:valueSource="user"/>
         <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.PCW_ACT_CAN1_PERIPHERAL_FREQMHZ" xilinx:valueSource="user"/>

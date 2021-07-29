@@ -4,8 +4,8 @@
 		<item key="org.eclipse.debug.ui.DIALOG_SASH_WEIGHTS_1" value="237"/>
 		<item key="org.eclipse.debug.ui.DIALOG_SASH_WEIGHTS_2" value="762"/>
 		<item key="org.eclipse.debug.ui.EXPANDED_NODES" value=", com.xilinx.sdx.sdsoc.debug.launch.SdsTcfLaunchDelegate, "/>
-		<item key="DIALOG_WIDTH" value="1735"/>
-		<item key="DIALOG_HEIGHT" value="895"/>
+		<item key="DIALOG_WIDTH" value="1685"/>
+		<item key="DIALOG_HEIGHT" value="1031"/>
 		<item key="DIALOG_FONT_NAME" value="1|Ubuntu|11.0|0|GTK|1|"/>
 	</section>
 </section>

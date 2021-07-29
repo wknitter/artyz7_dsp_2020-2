@@ -11,7 +11,7 @@ artyz7
     <sdx:systemConfigurations sdx:defaultConfiguration="artyz7">
         <sdx:configuration sdx:name="artyz7"
                            sdx:displayName="artyz7"
-                           sdx:defaultProcessorGroup="standalone_domain"
+                           sdx:defaultProcessorGroup="linux"
                            sdx:runtimes="cpp">
             <sdx:description>artyz7</sdx:description>
             <sdx:bootImages sdx:default="standard">
@@ -25,6 +25,11 @@ artyz7
                             sdx:readme="artyz7/boot/generic.readme"
                             sdx:qemuArguments="artyz7/standalone_domain/qemu/qemu_args.txt"
                             />
+                <sdx:image sdx:name="linux"
+                            sdx:bif="artyz7/boot/artyz7.bif"
+                            sdx:readme="artyz7/boot/generic.readme"
+                            sdx:qemuArguments="artyz7/linux/qemu/qemu_args.txt"
+                            />
             </sdx:bootImages>
             <sdx:processorGroup sdx:name="standalone_domain"
                                 sdx:displayName="standalone on ps7_cortexa9_0"
@@ -35,6 +40,14 @@ artyz7
                         sdx:bspLibraryPaths="artyz7/standalone_domain/bsplib/lib"
                         sdx:bspIncludePaths="artyz7/standalone_domain/bspinclude/include"
                         sdx:bspConfig="artyz7/standalone_domain/system.mss"
+                />
+            </sdx:processorGroup>
+            <sdx:processorGroup sdx:name="linux"
+                                sdx:displayName="linux"
+                                sdx:architecture="32-bit"
+                                sdx:cpuType="cortex-a9">
+                <sdx:os sdx:name="linux"
+                        sdx:displayName="linux"
                 />
             </sdx:processorGroup>
         </sdx:configuration>

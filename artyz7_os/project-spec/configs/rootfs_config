@@ -4022,6 +4022,7 @@ CONFIG_imagefeature-debug-tweaks=y
 #
 # apps 
 #
+CONFIG_dmatest=y
 CONFIG_gpio-demo=y
 # CONFIG_peekpoke is not set
 
